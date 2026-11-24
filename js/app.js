@@ -252,6 +252,34 @@ async function onSendOrder(button) {
   }
 }
 
+async function runInvoiceAction(button, action) {
+  if (document.querySelector("#cartScreen .qty-input.is-invalid")) {
+    showToast("صحّح الكميات غير الصالحة أولاً", 2600);
+    return;
+  }
+  button.disabled = true;
+  try {
+    const result = await action();
+    showToast(result.message, result.ok ? 3000 : 3500);
+  } catch (error) {
+    showToast("تعذّر تجهيز الفاتورة: " + error.message, 4000);
+  } finally {
+    button.disabled = false;
+  }
+}
+
+/* تحديث ملخص الطلب (الأصناف/الطرود/القطع) بدون إعادة رسم السلة */
+function updateCartSummary() {
+  const box = document.querySelector("[data-cart-summary]");
+  if (!box) return;
+  const items = cartItems();
+  const t = cartTotals(items);
+  const values = box.querySelectorAll("dd");
+  values[0].textContent = items.length;
+  values[1].textContent = t.carton;
+  values[2].textContent = t.piece;
+}
+
 // ------------------------------------------------------------------ عارض الصور
 
 async function ensureAllImages(slider) {
@@ -357,6 +385,7 @@ async function copyText(text) {
 document.addEventListener("cart:changed", () => {
   updateCartBadge();
   syncOrderInputs();
+  updateCartSummary();
 });
 
 document.addEventListener("input", (event) => {
@@ -411,6 +440,8 @@ document.addEventListener("click", (event) => {
       showToast("تم تفريغ السلة");
       return;
     case "send-order": onSendOrder(target.closest("[data-action]")); return;
+    case "download-invoice": runInvoiceAction(target.closest("[data-action]"), downloadInvoice); return;
+    case "copy-invoice": runInvoiceAction(target.closest("[data-action]"), copyInvoice); return;
     case "close-modal": closeModal(); return;
     case "more": loadMore(); return;
     case "reset": resetFilters(); return;

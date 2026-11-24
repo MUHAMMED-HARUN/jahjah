@@ -224,32 +224,39 @@ function cartThumb(item) {
     : `<div class="thumb-fallback">${escapeHtml((p.name || "؟").charAt(0))}</div>`;
 }
 
+/* جدول السلة: أعمدة بعرض ثابت والمساحة الزائدة لاسم المنتج؛ على الشاشات الضيقة يتحول كل صف إلى بطاقة */
 function CartTable(items) {
   return `
-    <div class="table-wrap">
-      <table class="product-table cart-table">
+    <div class="table-wrap cart-table-wrap">
+      <table class="cart-table">
+        <colgroup>
+          <col class="c-index"><col class="c-image"><col class="c-name"><col class="c-unit"><col class="c-qty"><col class="c-remove">
+        </colgroup>
         <thead>
           <tr>
+            <th>#</th>
             <th>صورة</th>
-            <th>الرمز</th>
-            <th>اسم المنتج</th>
+            <th>المنتج</th>
             <th>التعبئة</th>
             <th>الكمية</th>
             <th><span class="sr-only">إزالة</span></th>
           </tr>
         </thead>
         <tbody>
-          ${items.map((it) => `
+          ${items.map((it, i) => `
             <tr data-cart-row="${escapeHtml(it.guid)}">
-              <td>${cartThumb(it)}</td>
-              <td><span class="code-chip">${escapeHtml(it.product.sku || "—")}</span></td>
-              <td>
+              <td class="t-index">${i + 1}</td>
+              <td class="t-image">${cartThumb(it)}</td>
+              <td class="t-name">
                 <span class="cell-name">${escapeHtml(it.product.name || "—")}</span>
-                <span class="cell-category">${escapeHtml(it.product.nameingAsProgram || "")}</span>
+                <span class="cart-meta">
+                  <span class="code-chip">${escapeHtml(it.product.sku || "—")}</span>
+                  ${it.product.nameingAsProgram ? `<span class="cell-category">${escapeHtml(it.product.nameingAsProgram)}</span>` : ""}
+                </span>
               </td>
-              <td>${UnitToggle(`cart-unit-${it.guid}`, it.unit, `data-cart-unit="${escapeHtml(it.guid)}"`)}</td>
-              <td>${CartQtyInput(it)}</td>
-              <td>${CartRemoveButton(it)}</td>
+              <td class="t-unit">${UnitToggle(`cart-unit-${it.guid}`, it.unit, `data-cart-unit="${escapeHtml(it.guid)}"`)}</td>
+              <td class="t-qty">${CartQtyInput(it)}</td>
+              <td class="t-remove">${CartRemoveButton(it)}</td>
             </tr>`).join("")}
         </tbody>
       </table>
@@ -278,32 +285,52 @@ function CartCards(items) {
     </div>`;
 }
 
+/* ملخص الكميات: مجموع الطرود ومجموع القطع */
+function cartTotals(items) {
+  return items.reduce((t, it) => {
+    t[it.unit === "piece" ? "piece" : "carton"] += Number(it.qty) || 0;
+    return t;
+  }, { carton: 0, piece: 0 });
+}
+
 function CartScreen(cart, view) {
   const items = cart.items;
-  const head = `
-    <div class="cart-head">
-      <p class="count">عدد الأصناف: <strong>${items.length}</strong></p>
-      ${items.length ? `
-      <div class="view-switch is-small" role="group" aria-label="طريقة عرض السلة">
-        <button type="button" class="view-btn${view === "table" ? " is-active" : ""}" data-cart-view="table">جدول</button>
-        <button type="button" class="view-btn${view === "cards" ? " is-active" : ""}" data-cart-view="cards">كروت</button>
-      </div>` : ""}
-    </div>`;
-
   if (!items.length) {
-    return `${head}<div class="state-panel">السلة فارغة.<br><button type="button" class="btn-more" data-screen="products">تصفّح المنتجات</button></div>`;
+    return `<div class="state-panel">السلة فارغة.<br><button type="button" class="btn-more" data-screen="products">تصفّح المنتجات</button></div>`;
   }
+  const totals = cartTotals(items);
 
   return `
-    ${head}
-    ${view === "cards" ? CartCards(items) : CartTable(items)}
-    <section class="cart-notes">
-      <label for="cartNotes">ملاحظات</label>
-      <textarea id="cartNotes" class="control" rows="4" maxlength="1000" placeholder="أضف ملاحظات للطلب..." data-cart-notes>${escapeHtml(cart.notes || "")}</textarea>
-    </section>
-    <div class="cart-actions">
-      <button type="button" class="btn-send" data-action="send-order">إرسال إلى واتساب</button>
-      <button type="button" class="btn-danger-outline" data-action="ask-clear-cart">تفريغ السلة</button>
+    <div class="cart-layout">
+      <div class="cart-main">
+        <div class="cart-head">
+          <p class="count">عدد الأصناف: <strong>${items.length}</strong></p>
+          <div class="view-switch is-small" role="group" aria-label="طريقة عرض السلة">
+            <button type="button" class="view-btn${view === "table" ? " is-active" : ""}" data-cart-view="table">جدول</button>
+            <button type="button" class="view-btn${view === "cards" ? " is-active" : ""}" data-cart-view="cards">كروت</button>
+          </div>
+        </div>
+        ${view === "cards" ? CartCards(items) : CartTable(items)}
+      </div>
+
+      <aside class="cart-side" aria-label="ملخص الطلب">
+        <h2>ملخص الطلب</h2>
+        <dl class="cart-summary" data-cart-summary>
+          <div><dt>الأصناف</dt><dd>${items.length}</dd></div>
+          <div><dt>طرود</dt><dd>${totals.carton}</dd></div>
+          <div><dt>قطع</dt><dd>${totals.piece}</dd></div>
+        </dl>
+        <div class="cart-notes">
+          <label for="cartNotes">ملاحظات</label>
+          <textarea id="cartNotes" class="control" rows="4" maxlength="1000" placeholder="أضف ملاحظات للطلب..." data-cart-notes>${escapeHtml(cart.notes || "")}</textarea>
+        </div>
+        <button type="button" class="btn-send" data-action="send-order">إرسال إلى واتساب</button>
+        <div class="invoice-actions desktop-only">
+          <button type="button" class="btn-secondary" data-action="download-invoice">⬇ تنزيل الفاتورة</button>
+          <button type="button" class="btn-secondary" data-action="copy-invoice">⧉ نسخ الفاتورة</button>
+        </div>
+        <button type="button" class="btn-danger-outline" data-action="ask-clear-cart">تفريغ السلة</button>
+      </aside>
     </div>`;
 }
 

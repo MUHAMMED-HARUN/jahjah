@@ -1,0 +1,112 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="AmmjGa3UM5adloL0VXEA">
+    <mxGraphModel dx="1510" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-2" value="table Products" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-3" value="add item&lt;div&gt;update&lt;/div&gt;&lt;div&gt;active&lt;br&gt;Add Category&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="218.75" y="140" width="92.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-4" value="UpdateVisability(all)&lt;div&gt;هذه ايضا تعمل عبر توفير json&amp;nbsp;&lt;br&gt;فيه اسم المنتج كما في البرنامج&amp;nbsp;&lt;br&gt;والكمية الموجودة&amp;nbsp;&lt;br&gt;وشرط ان يكون هناك طرد كامل&lt;br&gt;ختى تعين موجودة&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="150" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-5" value="UpdatePriceing&lt;br&gt;هذه تعمل عبر توفير json&amp;nbsp;&lt;br&gt;فيه السعر و اسم المنتج كما في &lt;br&gt;البرنامج&lt;br&gt;و المادة الموجودة في احد الاطراف فقط يتم عزلها وتكتب في ملف&amp;nbsp;&lt;br&gt;json&amp;nbsp;&lt;br&gt;كي يتم التعامل معها&amp;nbsp;&lt;br&gt;ويكتب في الملاحظات من اي طرف مفقودة ومن اي عملية" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="150" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-6" value="يجب اضافة حقل وهو&amp;nbsp;&lt;br&gt;التسمية كما في البرنامج" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-7" value="UpdateCategorys" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-9" value="add item&lt;div&gt;update&lt;/div&gt;&lt;div&gt;addChield&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="400" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-10" value="Category Table" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-11" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Add Category&lt;br&gt;يجب الاضافة الى الاوراق فقط&lt;br&gt;يتم الاضافة الى متغير التصنيف التصنيف الجديد&lt;br&gt;واذا كان موجود لا يضاف&lt;br&gt;&lt;br&gt;وهذه تعمل عن طريق تحديد عدد من العناصر او اضافة عنصر واحد&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-14" value="يجب ان لا يتم تكرار التصنيف لنفس الاب" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-15" value="لا يمكن اضافة ابناء للورقة التي تعمل كتصنيف" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-16" value="في التعديل لا يمكن تعديل الاسم الى اسم مشغول في نفس مسار الاب" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="500" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-17" value="هذا الجدول يجب ان&amp;nbsp; يتيح الاختيار المتعدد" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-19" value="&amp;nbsp;المشروع يجب ان يتم بنائه على&amp;nbsp;&lt;br&gt;nTier" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="20" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-20" value="في الصور يمكن اضافة اكثر من صورة لنفس المنتج&lt;br&gt;ويجب انشاء كومبوننت يظهر فيه الصور الموجودة&lt;div&gt;&lt;br&gt;image:[{path,order}]&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="370" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-21" value="في الجدول&amp;nbsp;&lt;br&gt;عند اختيار اي منتج يتم عرض الكارد له على شكل popap" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="100" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-22" value="في الجدول عندما يكون في وضع الكروت&lt;br&gt;يتم عرض واحد من التفاصيل&amp;nbsp;&lt;br&gt;واذا كان هناك اكثر يتم وضع اشارة المزيد..." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="175" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-23" value="في وضع الكارد يجب ان يتم عرض في اسفل الصورة نقاط تدل على الصورة المحددة حاليا&lt;br&gt;ومن اجل التنقل بين الصور في الهاتف عبر السحب او الضغط على النقاط&amp;nbsp;&lt;br&gt;و في الكمبيوتر عبر الاسهم&amp;nbsp;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="280" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-24" value="في table لا يتم احضار كافة السجلات&amp;nbsp;&lt;br&gt;يتم احضار البيانات عن طريق امرين&amp;nbsp;&lt;br&gt;اما ان يصل المستخدم الى اخر عنصر معروض فيتم طلب العناصر الجديدة&amp;nbsp;&lt;br&gt;و يكون هناك زر المزيد في حال لم يعمل التحميل الالي" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="460" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-25" value="بالنسبة للصور الخاصة بالمنتح&lt;br&gt;في ال table يتم اختيار الصورة ذات الترتيب 1&lt;br&gt;واذا كان هناك المزيد لا يتم طلبهن&lt;br&gt;&lt;br&gt;اذا طلب المستخدم عرض الكارد في popap يتم جلب الصور الباقية الخاصة بهذا المنتج مع الحفاظ على الترتيب" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="630" width="100" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-26" value="صورة المنتج المعروضة في table card&lt;br&gt;يجب ان بتم عرضها بشكل اوسع من الشكل الحالي&lt;br&gt;&lt;br&gt;يجب الحفاظ على ابعاد كل الcards على نفس الحجم تقريبا" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-755" y="840" width="100" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-27" value="المنتج الذي فيه كمية كثيرة يتم وضع دائرة خضراء عنده&lt;br&gt;&lt;br&gt;والمتوسط&lt;br&gt;صفراء&lt;br&gt;والقليل حمراء&lt;br&gt;&lt;br&gt;والمنتهي يكون رمادي" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="910" width="100" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-28" value="المنتج الذي ليس مفعل لا يجب عرضه في الواجهة" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="1030" width="100" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-30" value="الان قم بعمل خدمة order في الفرونت&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="900" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-31" value="السلة هي ال localStorage" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="940" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-32" value="وضع التصفح يكون فقط في وضع ال table card" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="980" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-33" value="يجب ان يكون هناك&amp;nbsp;&lt;br&gt;OrderInputCom&lt;br&gt;يكون فيه check box&amp;nbsp;&lt;br&gt;&amp;nbsp;من اجل ان يختار المستخدم&amp;nbsp;&lt;br&gt;نوع التعبئة طرد او قطعة&lt;br&gt;&lt;br&gt;ويكون هناك inputNumber&amp;nbsp; من اجل الكمية&lt;br&gt;ويكون هناك زر اضافة الى السلة" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1030" width="155" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-34" value="العنصر الموجود في السلة لا يمكن اضافته مرة اخرى" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-168.75" y="1200" width="132.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-35" value="يكون هناك شاشة ثانية وهي&amp;nbsp;&lt;br&gt;السلة&amp;nbsp;&lt;br&gt;يتم عرض فيها العناصر المختارة بالكميات التي اختارها&lt;br&gt;يمكن عرضها على شكل Table or Card" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1270" width="163.75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-36" value="يمكن تعديل الكمية و التعبئة مباشر من السلة&lt;br&gt;يمكن ازالة عنصر من السلة&lt;br&gt;يمكن اضافة ملاحظات في السلة&lt;br&gt;يكون هناك زر تفريغ السلة وهذا لا يتم التفاعل معه مباشر&amp;nbsp;&lt;br&gt;اذا ضغطه يتم اصدار تحذير واضح&lt;br&gt;ويكون هناك زر ارسال يتم ارسال رسالة الى واتساب" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-205" y="1380" width="173.75" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-37" value="بالنسبة لمدة بقاء العناصر في localstorage&amp;nbsp;&lt;br&gt;و الرقم الذي سيتم الارسال له&amp;nbsp;&lt;br&gt;يكون في ملف config&lt;br&gt;&lt;br&gt;وايضا يتم وضع نوع الرسالة في config&amp;nbsp;&lt;br&gt;صورة طويلة او رسالة نصية" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-202.5" y="1540" width="171.25" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oXkJiP1gAbPugG8GPlLR-39" value="يتم تخزين السجل بالكامل في ال localStorage&amp;nbsp;&lt;br&gt;ولكن وقت الارسال يتم ارسال البيانات &lt;br&gt;&lt;div&gt;هكذا&lt;br&gt;&lt;br&gt;يتم تجميع هذه البيانات في صورة طويلة&lt;br&gt;كل صف فيه هذه البيانات&lt;br&gt;زمر المنتج&lt;br&gt;اسمه كما هو في البرنامج&lt;br&gt;&lt;div style=&quot;direction: rtl;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;اسم المنتج&lt;br&gt;الكمية&lt;br&gt;نوع التعبئة&lt;br&gt;&lt;br&gt;وفي اخر الرسالة يكون هناك الملاحظات&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-195.62" y="1680" width="181.25" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

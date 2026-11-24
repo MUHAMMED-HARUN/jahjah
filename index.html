@@ -3,16 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>كتالوج المنتجات</title>
+  <title>كتالوج المنتجات — شركة الجحجاح التجارية</title>
+  <link rel="icon" type="image/png" href="assets/mark.png">
+  <meta name="theme-color" content="#6d191b">
   <link rel="stylesheet" href="css/styles.css">
+  <script>
+    /* تطبيق آخر ألوان محفوظة من config قبل الرسم الأول (لتجنّب وميض الألوان) */
+    try {
+      var cached = JSON.parse(localStorage.getItem("jahjah.theme") || "{}");
+      for (var k in cached) document.documentElement.style.setProperty(k, cached[k]);
+    } catch (e) {}
+  </script>
 </head>
 <body>
+  <!-- نقوش الخلفية الشفافة: DCEL / dsp / LAPÔN (اللون من config → theme.pattern) -->
+  <div class="brand-pattern" aria-hidden="true"></div>
+
   <div class="page-shell">
     <header class="page-header">
-      <div>
-        <p class="eyebrow">كتالوج المنتجات</p>
-        <h1 id="pageTitle">المنتجات</h1>
-        <p class="page-subtitle">تصفّح حسب الماركة وتصنيف المنتج، وأضف ما تريد إلى السلة.</p>
+      <div class="brand-head">
+        <a class="brand-logo" href="#products" data-screen="products" title="شركة الجحجاح التجارية">
+          <img src="assets/logo.png" alt="شركة الجحجاح التجارية — JAHJAH" width="768" height="398">
+        </a>
+        <div class="brand-text">
+          <p class="eyebrow">شركة الجحجاح التجارية · كتالوج المنتجات</p>
+          <h1 id="pageTitle">المنتجات</h1>
+          <p class="page-subtitle">تصفّح حسب الماركة وتصنيف المنتج، وأضف ما تريد إلى السلة.</p>
+        </div>
       </div>
       <nav class="view-switch" aria-label="الشاشات">
         <button type="button" class="view-btn is-active" data-screen="products">المنتجات</button>

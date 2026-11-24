@@ -2,11 +2,16 @@ package jahjah.shared.entities;
 
 import jahjah.shared.enums.EnMessageType;
 
-/** إعدادات الواجهة (config.json): رقم واتساب، مدة بقاء السلة بالأيام، ونوع الرسالة. */
+import java.util.ArrayList;
+import java.util.List;
+
+/** إعدادات الواجهة (config.json): رقم واتساب، مدة بقاء السلة بالأيام، نوع الرسالة، والألوان. */
 public class AppConfig {
     private String whatsappNumber = "";
     private int cartTtlDays = 7;
     private EnMessageType messageType = EnMessageType.IMAGE;
+    /** ألوان الواجهة بالترتيب. */
+    private List<ThemeColor> theme = new ArrayList<>();
 
     public AppConfig() { }
 
@@ -25,5 +30,15 @@ public class AppConfig {
     public EnMessageType getMessageType() { return messageType; }
     public void setMessageType(EnMessageType messageType) { this.messageType = messageType == null ? EnMessageType.IMAGE : messageType; }
 
-    public AppConfig copy() { return new AppConfig(whatsappNumber, cartTtlDays, messageType); }
+    public List<ThemeColor> getTheme() { return theme; }
+    public void setTheme(List<ThemeColor> theme) {
+        this.theme = new ArrayList<>();
+        if (theme != null) for (ThemeColor c : theme) this.theme.add(c.copy());
+    }
+
+    public AppConfig copy() {
+        AppConfig c = new AppConfig(whatsappNumber, cartTtlDays, messageType);
+        c.setTheme(theme);
+        return c;
+    }
 }

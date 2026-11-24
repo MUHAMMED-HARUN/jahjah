@@ -10,6 +10,53 @@ const UNITS = {
 
 let appConfig = { ...DEFAULT_CONFIG };
 
+/* مفتاح اللون في config.json → متغير CSS في styles.css */
+const THEME_VARS = {
+  background: "--bg",
+  surface: "--surface",
+  text: "--ink",
+  mutedText: "--muted",
+  border: "--line",
+  primary: "--brand",
+  primaryHover: "--brand-hover",
+  primarySoft: "--brand-soft",
+  accent: "--accent",
+  accentSoft: "--accent-soft",
+  success: "--success",
+  danger: "--danger",
+  stockLot: "--stock-lot",
+  stockMiddle: "--stock-middle",
+  stockLittle: "--stock-little",
+  stockNothing: "--stock-nothing",
+  pattern: "--pattern"
+};
+const THEME_CACHE_KEY = "jahjah.theme";
+
+/* يطبّق ألوان config على الصفحة ويحفظها لتُطبَّق فوراً في الزيارة القادمة (بدون وميض) */
+function applyTheme(theme) {
+  const root = document.documentElement;
+  root.classList.add("no-transition"); // تغيير الألوان فوراً بدون حركة انتقالية
+  const colors = {};
+  Object.entries(THEME_VARS).forEach(([key, cssVar]) => {
+    const entry = theme && theme[key];
+    const color = typeof entry === "string" ? entry : entry && entry.color;
+    if (typeof color === "string" && /^#[0-9a-f]{6}$/i.test(color.trim())) {
+      colors[cssVar] = color.trim();
+      root.style.setProperty(cssVar, colors[cssVar]);
+    }
+  });
+  if (colors["--brand"]) document.querySelector('meta[name="theme-color"]')?.setAttribute("content", colors["--brand"]);
+  try { localStorage.setItem(THEME_CACHE_KEY, JSON.stringify(colors)); } catch { /* تفضيل فقط */ }
+  void root.offsetWidth; // تثبيت الألوان الجديدة قبل إعادة تفعيل الحركات
+  setTimeout(() => root.classList.remove("no-transition"), 0);
+}
+
+/* لون فعلي من متغير CSS (لرسم الفاتورة) */
+function themeColor(cssVar, fallback) {
+  const v = getComputedStyle(document.documentElement).getPropertyValue(cssVar).trim();
+  return /^#[0-9a-f]{3,8}$/i.test(v) ? v : fallback;
+}
+
 async function loadConfig() {
   try {
     const response = await fetch("config.json", { cache: "no-store" });
@@ -21,6 +68,7 @@ async function loadConfig() {
   appConfig.cartTtlDays = Number.isFinite(days) && days > 0 ? days : DEFAULT_CONFIG.cartTtlDays;
   appConfig.messageType = appConfig.messageType === "text" ? "text" : "image";
   appConfig.whatsappNumber = String(appConfig.whatsappNumber || "").replace(/\D/g, "").replace(/^00/, "");
+  applyTheme(appConfig.theme);
   return appConfig;
 }
 
@@ -144,6 +192,15 @@ function orderText(cart) {
 
 /* صورة طويلة: صف لكل منتج، والملاحظات في آخرها */
 async function orderImage(cart) {
+  const theme = {
+    primary: themeColor("--brand", "#6d191b"),
+    primarySoft: themeColor("--brand-soft", "#f6e9e4"),
+    accent: themeColor("--accent", "#b19154"),
+    accentSoft: themeColor("--accent-soft", "#f5edda"),
+    background: themeColor("--bg", "#fdf8e5"),
+    text: themeColor("--ink", "#2b1d17"),
+    border: themeColor("--line", "#ebe1cb")
+  };
   const W = 1080;
   const PAD = 32;
   const FONT = '"Segoe UI", Tahoma, Arial, sans-serif';
@@ -203,7 +260,7 @@ async function orderImage(cart) {
   ctx.fillRect(0, 0, W, H);
 
   // الرأس
-  ctx.fillStyle = "#4f46e5";
+  ctx.fillStyle = theme.primary;
   ctx.fillRect(0, 0, W, headerH);
   ctx.fillStyle = "#ffffff";
   ctx.textAlign = "right";
@@ -214,9 +271,9 @@ async function orderImage(cart) {
 
   // رأس الجدول (من اليمين لليسار)
   let y = headerH + PAD;
-  ctx.fillStyle = "#eef2ff";
+  ctx.fillStyle = theme.primarySoft;
   ctx.fillRect(PAD, y, W - PAD * 2, tableHeadH);
-  ctx.fillStyle = "#3730a3";
+  ctx.fillStyle = theme.primary;
   ctx.font = `bold 19px ${FONT}`;
   let x = W - PAD;
   cols.forEach((c) => {
@@ -227,16 +284,16 @@ async function orderImage(cart) {
 
   // الصفوف
   laidOut.forEach((row, i) => {
-    ctx.fillStyle = i % 2 ? "#f8fafc" : "#ffffff";
+    ctx.fillStyle = i % 2 ? theme.background : "#ffffff";
     ctx.fillRect(PAD, y, W - PAD * 2, row.h);
-    ctx.fillStyle = "#111827";
+    ctx.fillStyle = theme.text;
     ctx.font = cellFont;
     x = W - PAD;
     cols.forEach((c, ci) => {
       row.cells[ci].forEach((text, li) => ctx.fillText(text, x - 8, y + 10 + li * lineH));
       x -= c.w;
     });
-    ctx.strokeStyle = "#e5e7eb";
+    ctx.strokeStyle = theme.border;
     ctx.beginPath();
     ctx.moveTo(PAD, y + row.h);
     ctx.lineTo(W - PAD, y + row.h);
@@ -247,12 +304,12 @@ async function orderImage(cart) {
   // الملاحظات في آخر الصورة
   if (noteLines.length) {
     y += 24;
-    ctx.fillStyle = "#fffbeb";
+    ctx.fillStyle = theme.accentSoft;
     ctx.fillRect(PAD, y, W - PAD * 2, notesH - 24);
-    ctx.fillStyle = "#92400e";
+    ctx.fillStyle = theme.accent;
     ctx.font = `bold 20px ${FONT}`;
     ctx.fillText("ملاحظات:", W - PAD - 12, y + 12);
-    ctx.fillStyle = "#111827";
+    ctx.fillStyle = theme.text;
     ctx.font = cellFont;
     noteLines.forEach((text, li) => ctx.fillText(text, W - PAD - 12, y + 46 + li * lineH));
   }
@@ -279,7 +336,8 @@ function downloadBlob(blob, fileName) {
  * الإرسال حسب messageType في config:
  *  text  → يفتح محادثة واتساب مع الرقم والرسالة جاهزة.
  *  image → على الهاتف: مشاركة الصورة مباشرة (يختار المستخدم واتساب).
- *          على الكمبيوتر: تنزيل الصورة ونسخها للحافظة، ثم فتح محادثة الرقم للصقها.
+ *          على الكمبيوتر: نسخ الصورة للحافظة ثم فتح محادثة الرقم للصقها
+ *          (وأزرار "تنزيل الفاتورة" و"نسخ الفاتورة" ظاهرة في السلة).
  */
 async function sendOrder() {
   const cart = readCart();
@@ -292,7 +350,7 @@ async function sendOrder() {
   }
 
   const blob = await orderImage(cart);
-  const fileName = `order-${new Date().toISOString().slice(0, 16).replace(/[:T]/g, "-")}.png`;
+  const fileName = invoiceFileName();
   const file = new File([blob], fileName, { type: "image/png" });
   const caption = `طلب جديد — ${cart.items.length} أصناف`;
 
@@ -305,21 +363,56 @@ async function sendOrder() {
     }
   }
 
-  downloadBlob(blob, fileName);
-  let copied = false;
-  try {
-    if (navigator.clipboard && window.ClipboardItem) {
-      await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
-      copied = true;
-    }
-  } catch {
-    copied = false;
-  }
+  // الكمبيوتر: نسخ الفاتورة للحافظة وفتح محادثة الرقم (التنزيل متاح من زر "تنزيل الفاتورة")
+  const copied = await copyImageBlob(blob);
   window.open(whatsappUrl(caption), "_blank", "noopener");
   return {
     ok: true,
     message: copied
-      ? "تم تنزيل صورة الطلب ونسخها — الصقها (Ctrl+V) في محادثة واتساب."
-      : "تم تنزيل صورة الطلب — أرفقها في محادثة واتساب."
+      ? "تم نسخ الفاتورة — الصقها (Ctrl+V) في محادثة واتساب."
+      : "تعذّر النسخ تلقائياً — استخدم زر \"تنزيل الفاتورة\" ثم أرفقها في المحادثة."
   };
+}
+
+function invoiceFileName() {
+  const d = new Date();
+  const pad = (n) => String(n).padStart(2, "0");
+  return `invoice-${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}-${pad(d.getHours())}${pad(d.getMinutes())}.png`;
+}
+
+/*
+ * نسخ صورة للحافظة. يقبل Blob أو Promise<Blob>: تمرير الـ Promise مباشرة عند النقر
+ * يحافظ على إذن "تفاعل المستخدم" أثناء توليد الصورة (مطلوب في Safari وبعض المتصفحات).
+ */
+async function copyImageBlob(blobOrPromise) {
+  try {
+    if (!navigator.clipboard || !window.ClipboardItem) return false;
+    await navigator.clipboard.write([new ClipboardItem({ "image/png": Promise.resolve(blobOrPromise) })]);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/* زر "تنزيل الفاتورة": صورة PNG بنفس محتوى الرسالة */
+async function downloadInvoice() {
+  const cart = readCart();
+  if (!cart.items.length) return { ok: false, message: "السلة فارغة." };
+  downloadBlob(await orderImage(cart), invoiceFileName());
+  return { ok: true, message: "تم تنزيل الفاتورة." };
+}
+
+/* زر "نسخ الفاتورة": نسخ الصورة للحافظة، وإن لم يدعم المتصفح ذلك يُنسخ النص */
+async function copyInvoice() {
+  const cart = readCart();
+  if (!cart.items.length) return { ok: false, message: "السلة فارغة." };
+  if (await copyImageBlob(orderImage(cart))) { // بدون await: الكتابة تبدأ فوراً عند النقر
+    return { ok: true, message: "تم نسخ صورة الفاتورة — الصقها بـ Ctrl+V." };
+  }
+  try {
+    await navigator.clipboard.writeText(orderText(cart));
+    return { ok: true, message: "المتصفح لا يدعم نسخ الصور، تم نسخ الفاتورة كنص." };
+  } catch {
+    return { ok: false, message: "تعذّر النسخ — استخدم زر \"تنزيل الفاتورة\"." };
+  }
 }
