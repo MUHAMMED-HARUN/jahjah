@@ -1,0 +1,3088 @@
+{
+  "operation": "UpdatePricing",
+  "sourceFile": "D:\\Project\\JahJah\\test-data\\prices.json",
+  "createdAt": "2026-11-24T22:41:56.401207100",
+  "count": 308,
+  "items": [
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "invalid",
+      "nameingAsProgram": "NEG-PRICE",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": -5,
+      "notes": "السعر سالب — عملية UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "invalid",
+      "nameingAsProgram": "DSP-KC3009",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 999,
+      "notes": "الاسم مكرر في الملف (تم اعتماد أول ظهور) — عملية UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "invalid",
+      "nameingAsProgram": "",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 10,
+      "notes": "الاسم كما في البرنامج فارغ — عملية UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "invalid",
+      "nameingAsProgram": "BAD-PRICE",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": null,
+      "notes": "السعر مفقود أو ليس رقماً — عملية UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "منتج",
+      "brand": "DSP",
+      "guid": "76da3aa3-7e9a-4f99-bc27-bb7448729701",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "غلاية قهوة",
+      "brand": "DSP",
+      "guid": "d0791259-0910-4ccd-8d4a-9a67943c2ea0",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "غلاية قهوة",
+      "brand": "DSP",
+      "guid": "15b11036-3b34-4a38-a3a3-2c8599202fc0",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مضرب قهوة",
+      "brand": "DSP",
+      "guid": "fc08c179-77cf-44a2-83af-42062a551642",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة قهوة",
+      "brand": "DSP",
+      "guid": "3a4d3461-89e2-4085-bdfa-a77368fb9edf",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة قهوة",
+      "brand": "DSP",
+      "guid": "c887a8d1-4d98-4b5b-84b2-d6cec76f6d8a",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة قهوة",
+      "brand": "DSP",
+      "guid": "472b7e74-6ec3-4d24-be2f-2ef767967611",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مطحنة قهوة",
+      "brand": "DSP",
+      "guid": "17886c1a-5f58-4f77-a261-008237f7d487",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مضرب رغوة",
+      "brand": "DSP",
+      "guid": "7d09cff9-0cd2-4851-a699-237e5cc48c9c",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "رغوة الحليب",
+      "brand": "DSP",
+      "guid": "a92f9106-9eea-4389-880e-8641f1e4adab",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مضرب قهوة",
+      "brand": "DSP",
+      "guid": "c02eb0e8-7f2c-4cd9-b693-73d15fe29403",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة قهوة",
+      "brand": "DSP",
+      "guid": "0ae3a77b-c010-45ef-86f5-6447e8973fed",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مطحنة قهوة",
+      "brand": "DSP",
+      "guid": "dbde6143-bb16-45ce-b8c7-2a4d4d867ee0",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صانعة زبادي",
+      "brand": "DSP",
+      "guid": "a46cac71-d311-46e2-ba5f-66756745444f",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "قلاية هوائية",
+      "brand": "DSP",
+      "guid": "ac41294b-8e05-4a5a-8dca-9299e097cfe7",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "قلاية هوائية",
+      "brand": "DSP",
+      "guid": "f7f5459a-264c-470f-93be-3696099ce96a",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "قلاية هوائية",
+      "brand": "DSP",
+      "guid": "fb45440c-f583-44b4-818d-f117c78d118b",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "قلاية هوائية",
+      "brand": "DSP",
+      "guid": "f2f687d3-d914-4656-9995-2db805bc8b7a",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "قلاية هوائية",
+      "brand": "DSP",
+      "guid": "30d52d7d-e64d-4e6d-b079-165bc501b811",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مقلاة عميقة",
+      "brand": "DSP",
+      "guid": "be28bf4d-7f2e-4e59-8833-48f9f4b31dfa",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "قدر ضغط",
+      "brand": "DSP",
+      "guid": "61db82a0-271c-4f1b-9c0d-cb9f51beb42f",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "قدر ضغط",
+      "brand": "DSP",
+      "guid": "eb50c47c-9f5b-4b94-b98b-e73ced883369",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صانعة سندويشات",
+      "brand": "DSP",
+      "guid": "7ee7b904-b60f-469a-b919-963e09a775d7",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صانعة سندويشات",
+      "brand": "DSP",
+      "guid": "e892cb06-e023-4e2c-96af-23a13375716c",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صانعة سندويشات",
+      "brand": "DSP",
+      "guid": "f9096da8-e904-493d-895b-4ae260e52db9",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صانعة سندويشات",
+      "brand": "DSP",
+      "guid": "d89b99a7-3198-4d6f-86f7-b3ab47c5337e",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "محمصة خبز",
+      "brand": "DSP",
+      "guid": "c62b41d9-9ea7-4bdf-bfda-7b35a4f845ff",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صانعة كيك",
+      "brand": "DSP",
+      "guid": "4c8c08cb-864b-4086-9d4f-4098efad2071",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صانعة كريب",
+      "brand": "DSP",
+      "guid": "92a13518-b6fd-4c33-b138-7e1748849f95",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة بخار",
+      "brand": "DSP",
+      "guid": "250be6ff-a91f-45b9-a026-c6cb4a72b888",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة ملابس",
+      "brand": "DSP",
+      "guid": "f0fbd0c0-c5ee-459a-9622-a0f09645cccf",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "جهاز تفريغ الهواء",
+      "brand": "DSP",
+      "guid": "3d32654a-6775-48c8-9884-003050597e2b",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكنسة كهربائية",
+      "brand": "DSP",
+      "guid": "d6a008bb-4bed-457d-8ca2-cbb355d128a8",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكنسة كهربائية",
+      "brand": "DSP",
+      "guid": "de78ae5d-3a01-4620-a5c9-281206c76e83",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "جهاز تنظيف بقع",
+      "brand": "DSP",
+      "guid": "0f7cb9fb-f697-41df-951b-43444b4b2a7b",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكنسة كهربائية",
+      "brand": "DSP",
+      "guid": "a1b15eef-34cf-4df4-80fe-c2052da34e54",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكنسة كهربائية",
+      "brand": "DSP",
+      "guid": "27102539-990b-4e07-8e26-30faf4dfca73",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ممسحة بخارية",
+      "brand": "DSP",
+      "guid": "37eff85f-1c62-4b0d-a772-78947b6b2a9b",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ممسحة بخارية",
+      "brand": "DSP",
+      "guid": "c945458b-1ca8-49b9-a16d-15db40b98e90",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مدفأة زيت",
+      "brand": "DSP",
+      "guid": "aa12dc9b-bc23-40d9-a405-20a48b638b30",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مدفأة مروحة",
+      "brand": "DSP",
+      "guid": "fe80c85d-a690-4fc1-9640-0d7a7b740597",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مروحة",
+      "brand": "DSP",
+      "guid": "0a1a1bb8-e699-485d-a194-a02fccfabb59",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مروحة",
+      "brand": "DSP",
+      "guid": "8d27fbd1-d171-45c6-8496-3c10dd1fe881",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مروحة",
+      "brand": "DSP",
+      "guid": "012f838f-3206-40c8-8c80-b8ea42601802",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مروحة",
+      "brand": "DSP",
+      "guid": "31738ffc-0a4e-487c-9045-529660d5384b",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مرطب هواء",
+      "brand": "DSP",
+      "guid": "501531ee-4d19-47ed-a1a1-800534d17793",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صفيحة تسخين",
+      "brand": "DSP",
+      "guid": "acfa302d-5671-4c70-b996-9798b4b793e0",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صفيحة تسخين",
+      "brand": "DSP",
+      "guid": "5afbb055-c9fb-4f9c-aba4-e4cf17856c6c",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صفيحة تسخين",
+      "brand": "DSP",
+      "guid": "0c98ffcc-0bb0-4188-8bec-7bf4e95cea85",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صفيحة تسخين",
+      "brand": "DSP",
+      "guid": "a532aa5a-72f4-4a01-a8d9-f17f3b46d4aa",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صفيحة تسخين",
+      "brand": "DSP",
+      "guid": "8a073f85-d529-4eff-a747-bee61b9615b7",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "طباخ كهربائي",
+      "brand": "DSP",
+      "guid": "a47e6f51-4c7d-4501-9b06-f9f74b576566",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "طباخ كهربائي",
+      "brand": "DSP",
+      "guid": "bc8584be-99b3-467f-84b5-f35dc5caa8b0",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة ملابس",
+      "brand": "DSP",
+      "guid": "8f8e04ab-affb-4ab1-8299-b5e2334f8765",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة ملابس",
+      "brand": "DSP",
+      "guid": "d12d2be6-47fd-4846-a5a2-3c21a85724d9",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ميزان مطبخ",
+      "brand": "DSP",
+      "guid": "1279b829-bc5e-4640-ae5e-d3e2f2e58b6a",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "صانعة ثلج",
+      "brand": "DSP",
+      "guid": "cef6df0e-1ad0-4095-8743-045bbbba0747",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عصارة حمضيات",
+      "brand": "DSP",
+      "guid": "57ac9d7d-15d1-496d-94c5-6ab5e6a6a5f2",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عصارة حمضيات",
+      "brand": "DSP",
+      "guid": "5d14554c-b726-453e-ac6c-9c7959831798",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عصارة حمضيات",
+      "brand": "DSP",
+      "guid": "65b7b1fa-8fb3-4dae-afef-3ec7dcd6dc06",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عصارة حمضيات",
+      "brand": "DSP",
+      "guid": "5f9f67c6-874c-4bef-b181-82d2a810af32",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عصارة حمضيات",
+      "brand": "DSP",
+      "guid": "5d6664e4-236c-4773-93a6-6d9576e392a6",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عصارة حمضيات",
+      "brand": "DSP",
+      "guid": "7c4d7433-f735-4a24-8422-206cfe773d8b",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "خلاط",
+      "brand": "DSP",
+      "guid": "3aa46f91-5351-4ac0-968d-2d13f6b57857",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "خلاط",
+      "brand": "DSP",
+      "guid": "8c9894a9-e2c5-43aa-be9f-e95c0e476bfa",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "خلاط",
+      "brand": "DSP",
+      "guid": "5fd7662a-c377-47f7-8018-90744a776f5b",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "خلاط",
+      "brand": "DSP",
+      "guid": "b5396d0e-7bc0-474c-a44e-09cdfc94efd7",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "خلاط",
+      "brand": "DSP",
+      "guid": "8f62a64e-0b4b-4083-96d6-95be297dc80f",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عصارة",
+      "brand": "DSP",
+      "guid": "fe66eb5d-7c16-40ec-aa1b-3fc2f69443a5",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "محضر طعام",
+      "brand": "DSP",
+      "guid": "c9d5e8c5-dd60-4c51-8e01-44a78776a18b",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عصارة بطيئة",
+      "brand": "DSP",
+      "guid": "32aeb229-d6ab-4eb8-9fae-2c76de90d3b7",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عصارة بطيئة",
+      "brand": "DSP",
+      "guid": "71fbba74-4047-4b70-bab2-08e74f244bc7",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عصارة بطيئة",
+      "brand": "DSP",
+      "guid": "0e559b13-1faf-4382-a038-efcfd304bda8",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "آلة مشروبات مثلجة",
+      "brand": "DSP",
+      "guid": "0beb4e9f-f534-4573-b580-a70393bd21ed",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "آلة مشروبات مثلجة",
+      "brand": "DSP",
+      "guid": "daf13dfc-8693-426d-a202-c598f57563a0",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "غلاية قهوة",
+      "brand": "DSP",
+      "guid": "ccb4c78f-9a89-402a-99aa-1a8d546842d3",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "موزع مياه ساخنة",
+      "brand": "DSP",
+      "guid": "6bd4930b-8e5a-4f98-a3de-f4d78c81e122",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مبرد مياه",
+      "brand": "DSP",
+      "guid": "06db0bec-9db7-42c5-a55c-75d1ec11958e",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مبرد مياه",
+      "brand": "DSP",
+      "guid": "4bce5e4b-049f-426b-b566-f158acdc862b",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مبرد مياه",
+      "brand": "DSP",
+      "guid": "1df9ef48-d720-4607-b2ae-89fa10695566",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "خلاط",
+      "brand": "DSP",
+      "guid": "495848c6-1595-4443-84f7-da5c4fd4e4e6",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "خلاط",
+      "brand": "DSP",
+      "guid": "963fc82d-ccc0-4fa2-9ce0-d5c458a1f78d",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عجانة",
+      "brand": "DSP",
+      "guid": "2d95c8ab-fecf-4570-8c07-c4d3e9032b0c",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مفرمة طعام",
+      "brand": "DSP",
+      "guid": "3171259a-fd78-4c14-8d65-373ee47debfb",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "محضر طعام للأطفال",
+      "brand": "DSP",
+      "guid": "068d184c-efac-4aac-978c-d477becd9e52",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مفرمة لحم",
+      "brand": "DSP",
+      "guid": "c24ef6f7-2c03-4b11-9d61-369f5667e490",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مفرمة لحم",
+      "brand": "DSP",
+      "guid": "88979d47-8ecb-4aba-9da7-4f534b6ee11c",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "طقم طناجر",
+      "brand": "DSP",
+      "guid": "30b9d7e4-cefe-49e1-8d91-f7901c6dbbbb",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "طقم طناجر",
+      "brand": "DSP",
+      "guid": "e9fa2a70-bd16-4dd2-b701-dad87e414f05",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "طقم طناجر",
+      "brand": "DSP",
+      "guid": "6d737317-c7f5-42b2-85ad-926a3d0cfda3",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن كهربائي",
+      "brand": "DSP",
+      "guid": "ae4e7237-ae91-43cb-8fe6-f7b7ddeb3032",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "بكرات شعر",
+      "brand": "DSP",
+      "guid": "52c20ead-7df7-454c-b03c-54cfd4d7ad2d",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "منظف مسامات الوجه",
+      "brand": "DSP",
+      "guid": "ec1dcaad-b200-4bdc-9626-3fbf351781c2",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مقشر قدمين",
+      "brand": "DSP",
+      "guid": "99bd5fe8-465b-4a33-ad4b-24f99cf0faaa",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة تشذيب بيكيني",
+      "brand": "DSP",
+      "guid": "0cd8c2f3-57b4-49fc-9b26-fc68209b3b21",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "إزالة الشعر بالليزر",
+      "brand": "DSP",
+      "guid": "1cca449f-260f-46a1-8f39-3ee8e6243152",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة فرد الشعر",
+      "brand": "DSP",
+      "guid": "c9ddf32e-fd1c-42aa-8e45-bcc5f43c0449",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة تجعيد الشعر",
+      "brand": "DSP",
+      "guid": "81076423-235c-4015-a05c-b86a8d124a96",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة حلاقة نسائية",
+      "brand": "DSP",
+      "guid": "b9385fe7-7a8c-48d5-be72-4abbaa13660b",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرشاة أسنان",
+      "brand": "DSP",
+      "guid": "f9ec1b0b-2946-4090-88a5-64f0829b6016",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "بخار الوجه",
+      "brand": "DSP",
+      "guid": "c234d48e-4dd7-4636-b9be-9968e9f1fd43",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة فرد الشعر",
+      "brand": "DSP",
+      "guid": "18b45f73-b846-4236-bc79-b469e420b7f3",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة فرد الشعر",
+      "brand": "DSP",
+      "guid": "7caca0ae-f757-4d9d-b1bd-052c4c601645",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة فرد الشعر",
+      "brand": "DSP",
+      "guid": "b40b68ec-5f40-4f84-821d-f132eb0536b4",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة فرد الشعر",
+      "brand": "DSP",
+      "guid": "c96e5a73-9c10-49af-b4ae-d0b7cf6549ba",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة فرد الشعر",
+      "brand": "DSP",
+      "guid": "b9c12046-4716-4150-917e-a5940d1417e0",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة فرد الشعر",
+      "brand": "DSP",
+      "guid": "b8cd0769-079e-4906-b585-6f27ac2a276e",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة فرد الشعر",
+      "brand": "DSP",
+      "guid": "72c3c930-edc1-4308-a9b1-1763272c33ce",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة فرد الشعر",
+      "brand": "DSP",
+      "guid": "93525ef4-fe2d-44fc-b178-214043e3f2c4",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة شعر",
+      "brand": "DSP",
+      "guid": "daa633fe-57c9-4901-aa6f-1b595938c56e",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة فرد الشعر",
+      "brand": "DSP",
+      "guid": "0ba914e7-a294-4a12-9a48-b003e45d8fc7",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة فرد الشعر",
+      "brand": "DSP",
+      "guid": "9fb6f8d2-37bb-4bbf-9e79-41c98e1a3110",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة تجعيد الشعر",
+      "brand": "DSP",
+      "guid": "76cbcd82-ddd3-460a-bbfb-7873345d9cfc",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مكواة تجعيد الشعر",
+      "brand": "DSP",
+      "guid": "d098d347-d5dd-442b-ae12-c8d8c8443d79",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مجموعة عناية",
+      "brand": "DSP",
+      "guid": "a322fa4f-7fa2-47f1-87e0-ef792481a032",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مجفف شعر",
+      "brand": "DSP",
+      "guid": "102bc3a7-f172-436d-84d3-8c4755cde4cb",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرشاة شعر",
+      "brand": "DSP",
+      "guid": "c231b6ea-9c3f-4ba7-9a7e-6facfcad1acd",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مجفف شعر",
+      "brand": "DSP",
+      "guid": "9575218a-0c1d-43ab-9848-e35630a8fdb2",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مقشر قدمين",
+      "brand": "DSP",
+      "guid": "899c1e4d-aa44-4204-aff7-a52913cc53b1",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مزيل شعر الوجه",
+      "brand": "DSP",
+      "guid": "e860bca8-47c9-4e06-8f47-eb131dc220fa",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة حلاقة رجالية",
+      "brand": "DSP",
+      "guid": "f1c1c582-339c-4e9b-ac2a-3b4e395b8ae2",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مزيل شعر الوجه",
+      "brand": "DSP",
+      "guid": "fe870527-0dc3-488a-96e4-ddd853c9dd80",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة تشذيب الحواجب",
+      "brand": "DSP",
+      "guid": "47c02b94-6918-41db-abb0-6293fe13c081",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة حلاقة رجالية",
+      "brand": "DSP",
+      "guid": "5046ca45-f1a7-4098-9840-8105ab0d0d88",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مجموعة عناية",
+      "brand": "DSP",
+      "guid": "4e7e1c8c-8791-42c9-b5d6-ea9993c14987",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة حلاقة جسم",
+      "brand": "DSP",
+      "guid": "ad175213-5065-4398-9ffb-70e8253aad2c",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مجموعة عناية",
+      "brand": "DSP",
+      "guid": "9423d8ef-db6c-489b-920e-c8a724c45c4b",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة حلاقة نسائية",
+      "brand": "DSP",
+      "guid": "d4e3534f-666d-4495-905f-1bdeeaeaaabe",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مجموعة عناية",
+      "brand": "DSP",
+      "guid": "a470c0f6-6858-4bf1-afb0-d3e7bf73a5f9",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة حلاقة نسائية",
+      "brand": "DSP",
+      "guid": "cd7ed3b5-c326-4d71-b3cc-14df2c11eb7a",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة حلاقة نسائية",
+      "brand": "DSP",
+      "guid": "65c87777-f1cd-495b-abd7-9b4fe1fe1c98",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "ماكينة حلاقة نسائية",
+      "brand": "DSP",
+      "guid": "8fc4840c-f2b0-44a2-b382-f72832eed845",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 35 ليتر ديسل",
+      "brand": "DCEL",
+      "guid": "50becfda-88e3-410d-9c9a-19f55d874476",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 45 ليتر ديسل",
+      "brand": "DCEL",
+      "guid": "71cfee6a-a698-4800-aee7-e02bb2d989b2",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 45 ليتر ديسل",
+      "brand": "DCEL",
+      "guid": "9396c58e-91cc-4332-9a88-315c88dca0d9",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 70 ليتر ديسل",
+      "brand": "DCEL",
+      "guid": "ffd2a96a-679c-41b4-ba53-640d8310fb7f",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 45 جنرال",
+      "brand": "DCEL",
+      "guid": "4386a0db-6565-4db5-8150-0e5be7c903d2",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 70 ليتر جنرال",
+      "brand": "DCEL",
+      "guid": "768c4b6b-227b-4522-83ce-0586cacaa5d6",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 5 رؤس ديسل شاشة ابيض s9",
+      "brand": "DCEL",
+      "guid": "7a9d7138-b255-4327-818a-733a2ed0bee9",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 5 رؤس ديسل ابيض",
+      "brand": "DCEL",
+      "guid": "71a88da8-b6f1-4346-9d01-055277a8fea9",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 5 رؤس ديسل ابيض راسين تيربو",
+      "brand": "DCEL",
+      "guid": "829dcacf-673a-4c5e-a75e-30f662dfa673",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 5 رؤس ديسل ابيض إيطالي نحاس مع امان",
+      "brand": "DCEL",
+      "guid": "47f6408f-8765-4983-a10d-3a4627246407",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 5 رؤس ديسل اسود إيطالي نحاس مع امان",
+      "brand": "DCEL",
+      "guid": "aa93701a-971c-4850-8538-daa21af5cf4f",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 5 رؤس ديسل فضي إيطالي نحاس مع امان",
+      "brand": "DCEL",
+      "guid": "325bbabd-19ff-4d13-94d0-ccbdfc1ec680",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "فرن 5 رؤس ديسل ستالس إيطالي نحاس مع امان",
+      "brand": "DCEL",
+      "guid": "e1d06487-3609-4be4-9236-6fe00a22ffd6",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "HZ130",
+      "brand": "DCEL",
+      "guid": "de18ca89-748d-492a-ab35-ba9d47ea0e12",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "KC818",
+      "brand": "DCEL",
+      "guid": "670385c7-44ac-4f4a-b331-ebf97801682e",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "KC818R",
+      "brand": "DCEL",
+      "guid": "5951cd92-b4da-4ea6-902e-8d167c90ea83",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "1885",
+      "brand": "DCEL",
+      "guid": "37ae5fa9-43f4-4f7c-b669-9f3c78f65874",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "1843",
+      "brand": "DCEL",
+      "guid": "259da448-3ed6-4ec6-84b0-de35cc006684",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مروحة كهربا بطرية",
+      "brand": "DCEL",
+      "guid": "b8f11277-94f3-4b2e-9f8d-c5df41c58366",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مروحة 18 بدون تحكم",
+      "brand": "DCEL",
+      "guid": "626474a3-6a8a-4723-b036-922dfebcad7a",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "مروحة 18 مع تحكم",
+      "brand": "DCEL",
+      "guid": "9a47d718-fd51-412e-a296-739fa36f9f21",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "5*24",
+      "brand": "DCEL",
+      "guid": "ca30763a-a930-426e-aa91-20a44a870ec3",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "5*26",
+      "brand": "DCEL",
+      "guid": "6f4f6583-16c2-43b1-93b8-7475592c470f",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "dcel 106",
+      "brand": "DCEL",
+      "guid": "7a167a0b-8371-4b43-b3b1-945de82306f3",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "عبوة فلتر",
+      "brand": "DCEL",
+      "guid": "1c78ba0a-6643-4d26-9f75-f716d214cf0e",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "g57",
+      "brand": "DCEL",
+      "guid": "2f82fc01-60be-43e3-80fc-7097326a3d0c",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "D003",
+      "brand": "DCEL",
+      "guid": "3673cde4-333f-40c4-b88c-1d6932be8785",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "D004",
+      "brand": "DCEL",
+      "guid": "7332950a-6454-4ee0-b6fa-8a335f8b0f43",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "D008",
+      "brand": "DCEL",
+      "guid": "31a7a356-b19a-41bd-8988-8a6a4f005a15",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "BL032",
+      "brand": "DCEL",
+      "guid": "fa21908d-c017-4c41-9de9-0f8aaa71dd63",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "SC-045",
+      "brand": "DCEL",
+      "guid": "2edbd967-31e3-40d0-b48c-16f1d17a2839",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "BE041",
+      "brand": "DCEL",
+      "guid": "c09bcccc-3ce6-4ea2-9372-e3cc8f407978",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "RT 195",
+      "brand": "DCEL",
+      "guid": "5f7120b2-7c48-40f0-85b4-5492ab78960a",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "قاعدة شاشة 32-43",
+      "brand": "DCEL",
+      "guid": "4b940399-7abb-443d-8e78-01efe3ecbcc5",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "قاعدة شاشة 43-63",
+      "brand": "DCEL",
+      "guid": "d421d3be-6b94-4bd0-be70-518087db8831",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "قاعدة شاشة 40-80",
+      "brand": "DCEL",
+      "guid": "79814d40-228b-4603-8978-9b67de070ad0",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "file",
+      "nameingAsProgram": "",
+      "productName": "غاز 3 بلور",
+      "brand": "DCEL",
+      "guid": "ee52ba76-1167-4f4a-9d27-c93395c9a098",
+      "value": null,
+      "notes": "المنتج لا يملك اسماً كما في البرنامج (nameingAsProgram) — مفقود من ملف UpdatePricing"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-11013",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 8.8,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KC1238",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 31.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-91526",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 17.4,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-10244A",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 14.85,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA3090",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 91.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-004",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 60.9,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA3130",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 9.9,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ3071",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 76.8,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ2177",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 42,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-90481",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 18,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KC3009",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 55,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-002",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 36,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KM2135",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 11,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KC1170",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 12.08,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ1079",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 26.1,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70165",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 13,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KM3031",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 120,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ1083",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 11,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-026",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 67.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD2044",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 72.9,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-015",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 55,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KK3024",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 176,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KB5037",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 82.95,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA4010",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 16.8,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ1049",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 24.3,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70212",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 9.97,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA3065",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 80.85,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-10022",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 12.1,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-10444",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 9.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "GHOST-1003",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 7,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KB2020",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 54.6,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KM4112",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 9,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-10733",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 13.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-020",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 27.6,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD3083",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 21,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "GHOST-1001",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 15,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70602",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 12.1,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ2099",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 24.3,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-023",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 228,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD3093",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 70.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-032",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 143,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ2110",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 65,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70538-2",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 7.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD2063",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 71.4,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-10210",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 16.28,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70357",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 6.08,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KB2066",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 59.4,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-024",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 252,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA3091",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 84,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-027",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 66,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KM4045",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 25.8,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-013",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 408,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ2128",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 54,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-CA001-S01",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 82.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KM5070",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 108,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD5060",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 20.35,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ1084",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 33,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70235",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 13,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-80200",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 20.7,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-017",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 33.6,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70538",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 8.1,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-80188",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 14.4,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KT80",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 162.75,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ1060",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 6.62,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA3143",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 22,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70342-2",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 8.42,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KB5009",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 30,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KB2187",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 26.25,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA3002",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 9.9,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-20174",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 10.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-010",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 363,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA3132",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 3.83,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD2048",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 64.8,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-10751",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 10.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70569",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 72,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD8001",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 93.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD1346",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 13.95,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD2033",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 14.04,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD2081",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 75,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-90407",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 14.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-10731",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 15.4,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-034",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 0.99,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-009",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 285,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70570",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 7.61,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD4050",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 25.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-007",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 342,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-019",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 19.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-20909U",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 16.8,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD4063",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 7.7,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD4057",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 30.8,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-11177",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 68.25,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KC3016",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 10.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-022",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 181.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ3081",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 60.3,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD2049",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 71.4,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA3037",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 10.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KK1259",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 34.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-021",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 30,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-10380",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 10.45,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA3148",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 67.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD3033",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 25,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-10273",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 13.95,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KC1350",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 23.1,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD3021",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 63,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KC1237",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 32.4,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-20245",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 10,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-011",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 330,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70118",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 4.25,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-001",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 29,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-70081",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 3.83,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-028",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 67.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ2097",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 35.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-033",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 258.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-018",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 19.8,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ3085",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 162,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-10224U",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 16.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ3084",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 53.55,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-21036",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 17,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ3087",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 210,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD6016",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 49,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KM5051",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 30,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD4054",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 5.83,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DCEL-031",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 155,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA3069",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 6.6,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "GHOST-1002",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 22.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD6019",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 46.2,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KC2045",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 16.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KK3025",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 160,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KM3089",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 60.5,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-91900",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 10,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KA3156",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 9,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-10029",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 14.7,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-CA018-S01",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 84,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KD7032",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 6.6,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    },
+    {
+      "operation": "UpdatePricing",
+      "missingFrom": "program",
+      "nameingAsProgram": "DSP-KJ3053",
+      "productName": null,
+      "brand": null,
+      "guid": null,
+      "value": 35.1,
+      "notes": "موجود في ملف UpdatePricing ومفقود من البرنامج"
+    }
+  ]
+}
