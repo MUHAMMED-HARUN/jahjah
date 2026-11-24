@@ -14,11 +14,17 @@ function showToast(message) {
   toastTimer = setTimeout(() => toast.classList.remove("is-visible"), 1800);
 }
 
+// category أصبح مصفوفة معرفات (من برنامج سطح المكتب)؛ نستخدم categoryLabel كمفتاح للفلتر
+function categoryKey(product) {
+  return Array.isArray(product.category) ? product.categoryLabel : product.category;
+}
+
 function uniqueCategories(products) {
   const map = new Map();
   products.forEach((product) => {
-    if (product.category && !map.has(product.category)) {
-      map.set(product.category, product.category);
+    const key = categoryKey(product);
+    if (key && !map.has(key)) {
+      map.set(key, key);
     }
   });
   return Array.from(map, ([value, label]) => ({ value, label }));
@@ -30,7 +36,7 @@ function filteredProducts() {
 
   return database.products.filter((product) => {
     const matchesBrand = !state.brand || product.brandId === state.brand;
-    const matchesCategory = !state.category || product.category === state.category;
+    const matchesCategory = !state.category || categoryKey(product) === state.category;
     const matchesName = !name || (product.name || "").toLocaleLowerCase("ar").includes(name);
     const matchesSku = !sku || (product.sku || "").toLocaleLowerCase("ar").includes(sku);
     return matchesBrand && matchesCategory && matchesName && matchesSku;

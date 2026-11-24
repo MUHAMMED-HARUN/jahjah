@@ -1,0 +1,482 @@
+[
+  {
+    "CategoryID": 1,
+    "CategoryName": "عام",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 2,
+    "CategoryName": "غير مصنف",
+    "CategoryFather": 1,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 3,
+    "CategoryName": "تحضير القهوة",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 4,
+    "CategoryName": "مطحنة قهوة وتوابل",
+    "CategoryFather": 3,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 5,
+    "CategoryName": "تسخين المياه",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 6,
+    "CategoryName": "غلاية كهربائية",
+    "CategoryFather": 5,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 7,
+    "CategoryName": "مضرب قهوة",
+    "CategoryFather": 3,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 8,
+    "CategoryName": "ماكينة قهوة إسبروسو",
+    "CategoryFather": 3,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 9,
+    "CategoryName": "مضرب رغوة الحليب",
+    "CategoryFather": 3,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 10,
+    "CategoryName": "جهاز رغوة الحليب",
+    "CategoryFather": 3,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 11,
+    "CategoryName": "ماكينة قهوة كبسولات",
+    "CategoryFather": 3,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 12,
+    "CategoryName": "تجهيز الطعام",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 13,
+    "CategoryName": "صانعة الزبادي",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 14,
+    "CategoryName": "الطبخ",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 15,
+    "CategoryName": "قلاية هوائية",
+    "CategoryFather": 14,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 16,
+    "CategoryName": "مقلاة عميقة",
+    "CategoryFather": 14,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 17,
+    "CategoryName": "قدر ضغط كهربائي",
+    "CategoryFather": 14,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 18,
+    "CategoryName": "صانعة سندويشات",
+    "CategoryFather": 14,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 19,
+    "CategoryName": "محمصة خبز",
+    "CategoryFather": 14,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 20,
+    "CategoryName": "صانعة كيك",
+    "CategoryFather": 14,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 21,
+    "CategoryName": "صانعة كريب",
+    "CategoryFather": 14,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 22,
+    "CategoryName": "العناية بالملابس",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 23,
+    "CategoryName": "مكواة بخار",
+    "CategoryFather": 22,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 24,
+    "CategoryName": "مكواة بخار ملابس",
+    "CategoryFather": 22,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 25,
+    "CategoryName": "جهاز تفريغ الهواء",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 26,
+    "CategoryName": "التنظيف",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 27,
+    "CategoryName": "مكنسة كهربائية",
+    "CategoryFather": 26,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 28,
+    "CategoryName": "جهاز تنظيف بقع محمول",
+    "CategoryFather": 26,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 29,
+    "CategoryName": "ممسحة بخارية",
+    "CategoryFather": 26,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 30,
+    "CategoryName": "تكييف وتدفئة",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 31,
+    "CategoryName": "مدفأة زيت",
+    "CategoryFather": 30,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 32,
+    "CategoryName": "مدفأة مروحة",
+    "CategoryFather": 30,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 33,
+    "CategoryName": "مروحة عمودية",
+    "CategoryFather": 30,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 34,
+    "CategoryName": "مرطب هواء",
+    "CategoryFather": 30,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 35,
+    "CategoryName": "صفيحة تسخين",
+    "CategoryFather": 14,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 36,
+    "CategoryName": "طباخ بالأشعة تحت الحمراء",
+    "CategoryFather": 14,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 37,
+    "CategoryName": "أدوات المطبخ",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 38,
+    "CategoryName": "ميزان مطبخ",
+    "CategoryFather": 37,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 39,
+    "CategoryName": "تحضير المشروبات",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 40,
+    "CategoryName": "صانعة الثلج",
+    "CategoryFather": 39,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 41,
+    "CategoryName": "عصارة حمضيات",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 42,
+    "CategoryName": "خلاط",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 43,
+    "CategoryName": "عصارة كهربائية",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 44,
+    "CategoryName": "محضر طعام",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 45,
+    "CategoryName": "عصارة بطيئة",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 46,
+    "CategoryName": "آلة مشروبات مثلجة",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 47,
+    "CategoryName": "موزع مياه ساخنة",
+    "CategoryFather": 5,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 48,
+    "CategoryName": "مبردات المياه",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 49,
+    "CategoryName": "مبرد مياه",
+    "CategoryFather": 48,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 50,
+    "CategoryName": "عجانة",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 51,
+    "CategoryName": "مفرمة طعام",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 52,
+    "CategoryName": "محضر طعام للأطفال",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 53,
+    "CategoryName": "مفرمة لحم",
+    "CategoryFather": 12,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 54,
+    "CategoryName": "طقم أواني طبخ",
+    "CategoryFather": 37,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 55,
+    "CategoryName": "فرن كهربائي",
+    "CategoryFather": 14,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 56,
+    "CategoryName": "العناية بالشعر",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 57,
+    "CategoryName": "بكرات شعر ساخنة",
+    "CategoryFather": 56,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 58,
+    "CategoryName": "العناية بالبشرة",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 59,
+    "CategoryName": "جهاز تنظيف مسامات الوجه",
+    "CategoryFather": 58,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 60,
+    "CategoryName": "مقشر القدمين الكهربائي",
+    "CategoryFather": 58,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 61,
+    "CategoryName": "إزالة الشعر والحلاقة",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 62,
+    "CategoryName": "ماكينة تشذيب بيكيني",
+    "CategoryFather": 61,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 63,
+    "CategoryName": "جهاز إزالة الشعر بالليزر",
+    "CategoryFather": 61,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 64,
+    "CategoryName": "مكواة فرد الشعر",
+    "CategoryFather": 56,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 65,
+    "CategoryName": "مكواة تجعيد الشعر",
+    "CategoryFather": 56,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 66,
+    "CategoryName": "ماكينة حلاقة نسائية",
+    "CategoryFather": 61,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 67,
+    "CategoryName": "العناية بالفم",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 68,
+    "CategoryName": "فرشاة أسنان كهربائية",
+    "CategoryFather": 67,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 69,
+    "CategoryName": "جهاز بخار للوجه",
+    "CategoryFather": 58,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 70,
+    "CategoryName": "مكواة فرد وتجعيد الشعر",
+    "CategoryFather": 56,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 71,
+    "CategoryName": "العناية الشخصية",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 72,
+    "CategoryName": "مجموعة عناية شخصية",
+    "CategoryFather": 71,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 73,
+    "CategoryName": "مجفف وفرشاة شعر",
+    "CategoryFather": 56,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 74,
+    "CategoryName": "فرشاة شعر كهربائية",
+    "CategoryFather": 56,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 75,
+    "CategoryName": "مزيل شعر الوجه",
+    "CategoryFather": 61,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 76,
+    "CategoryName": "ماكينة حلاقة للرجال",
+    "CategoryFather": 61,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 77,
+    "CategoryName": "ماكينة تشذيب الحواجب",
+    "CategoryFather": 61,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 78,
+    "CategoryName": "ماكينة حلاقة للجسم",
+    "CategoryFather": 61,
+    "IsLeef": true
+  },
+  {
+    "CategoryID": 79,
+    "CategoryName": "general",
+    "CategoryFather": null,
+    "IsLeef": false
+  },
+  {
+    "CategoryID": 80,
+    "CategoryName": "عام",
+    "CategoryFather": 79,
+    "IsLeef": true
+  }
+]
