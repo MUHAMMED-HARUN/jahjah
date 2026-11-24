@@ -2,6 +2,7 @@ package jahjah.bal;
 
 import jahjah.dal.BrandRepository;
 import jahjah.dal.CategoryRepository;
+import jahjah.dal.ConfigRepository;
 import jahjah.dal.DataPaths;
 import jahjah.dal.ImageRepository;
 import jahjah.dal.ImportRepository;
@@ -20,13 +21,16 @@ public final class Services {
     private final CategoryService categories;
     private final SyncService sync;
     private final BrandService brands;
+    private final ConfigService config;
     private final int migratedProducts;
 
-    private Services(ProductService products, CategoryService categories, SyncService sync, BrandService brands, int migrated) {
+    private Services(ProductService products, CategoryService categories, SyncService sync, BrandService brands,
+                     ConfigService config, int migrated) {
         this.products = products;
         this.categories = categories;
         this.sync = sync;
         this.brands = brands;
+        this.config = config;
         this.migratedProducts = migrated;
     }
 
@@ -40,8 +44,9 @@ public final class Services {
         ProductService products = new ProductService(store, categories, new ImageRepository(paths));
         SyncService sync = new SyncService(store, new ImportRepository(), new ReportRepository(paths));
         BrandService brands = new BrandService(store, brandRepo);
+        ConfigService config = new ConfigService(new ConfigRepository(paths));
         int migrated = migrateLegacyCategories(store, categories);
-        return new Services(products, categories, sync, brands, migrated);
+        return new Services(products, categories, sync, brands, config, migrated);
     }
 
     /**
@@ -82,6 +87,8 @@ public final class Services {
     public SyncService sync() { return sync; }
 
     public BrandService brands() { return brands; }
+
+    public ConfigService config() { return config; }
 
     /** عدد المنتجات التي رُحّل تصنيفها النصي القديم عند التشغيل. */
     public int migratedProducts() { return migratedProducts; }

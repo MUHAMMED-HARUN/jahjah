@@ -27,6 +27,12 @@ $all = Join-Path $out 'all'
 if (Test-Path $all) { Remove-Item -Recurse -Force $all }
 New-Item -ItemType Directory -Force $all | Out-Null
 foreach ($l in 'SharedEntity', 'DAL', 'BAL', 'UI') { Copy-Item -Recurse -Force "$out\$l\*" $all }
+
+$jarPath = Join-Path $out 'products-manager.jar'
+if (Test-Path $jarPath) {
+    try { [IO.File]::Open($jarPath, 'Open', 'ReadWrite', 'None').Close() }
+    catch { throw 'The app is still open (products-manager.jar is in use). Close it and build again.' }
+}
 & jar --create --file "$out\products-manager.jar" --main-class jahjah.ui.Main -C $all .
 if ($LASTEXITCODE -ne 0) { throw 'jar creation failed' }
 Write-Host "OK  $out\products-manager.jar"

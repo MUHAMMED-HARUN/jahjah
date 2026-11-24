@@ -52,11 +52,12 @@ class ProductsPanel extends JPanel {
     private final JComboBox<Object> brandFilter = new JComboBox<>();
     private final JTextField search = new JTextField(22);
     private final JLabel status = new JLabel(" ");
-    private final JLabel preview = new JLabel("لا توجد صورة", SwingConstants.CENTER);
+    private final ImageManager preview;
 
     ProductsPanel(Services services) {
         super(new BorderLayout(6, 6));
         this.services = services;
+        this.preview = new ImageManager(services.products()::resolveImage, false);
         setBorder(BorderFactory.createEmptyBorder(8, 8, 8, 8));
 
         // ---- شريط الفلاتر
@@ -101,8 +102,8 @@ class ProductsPanel extends JPanel {
         add(new JScrollPane(table), BorderLayout.CENTER);
 
         // ---- معاينة الصورة
-        preview.setPreferredSize(new Dimension(240, 240));
-        preview.setBorder(BorderFactory.createTitledBorder("الصورة"));
+        preview.setPreferredSize(new Dimension(340, 400));
+        preview.setBorder(BorderFactory.createTitledBorder("الصور (نقر مزدوج للحجم الكامل)"));
         add(preview, BorderLayout.LINE_END);
         add(status, BorderLayout.SOUTH);
 
@@ -185,19 +186,11 @@ class ProductsPanel extends JPanel {
     private void onSelectionChanged() {
         updateStatus();
         int[] rows = table.getSelectedRows();
-        preview.setIcon(null);
-        preview.setText("لا توجد صورة");
-        if (rows.length != 1) return;
-        Product p = model.at(table.convertRowIndexToModel(rows[0]));
-        Path img = services.products().resolveImage(p.getImagePath());
-        if (img == null) return;
-        ImageIcon icon = new ImageIcon(img.toString());
-        if (icon.getIconWidth() <= 0) return;
-        double scale = Math.min(220.0 / icon.getIconWidth(), 210.0 / icon.getIconHeight());
-        Image scaled = icon.getImage().getScaledInstance(
-                Math.max(1, (int) (icon.getIconWidth() * scale)), Math.max(1, (int) (icon.getIconHeight() * scale)), Image.SCALE_SMOOTH);
-        preview.setText(null);
-        preview.setIcon(new ImageIcon(scaled));
+        if (rows.length != 1) {
+            preview.setImages(List.of());
+            return;
+        }
+        preview.setImages(model.at(table.convertRowIndexToModel(rows[0])).getImage());
     }
 
     // ------------------------------------------------------------------ الدوال

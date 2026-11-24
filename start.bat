@@ -15,7 +15,13 @@ if errorlevel 1 (
 )
 
 if /i "%~1"=="rebuild" goto build
-if exist "%JAR%" goto run
+if not exist "%JAR%" goto build
+
+rem Rebuild automatically when any source file is newer than the jar
+set "STALE=0"
+for /f %%i in ('powershell -NoProfile -Command "$j=(Get-Item -LiteralPath '%JAR%').LastWriteTime; if (Get-ChildItem -Recurse -Filter *.java -LiteralPath '%ROOT%\desktop' | Where-Object { $_.LastWriteTime -gt $j } | Select-Object -First 1) { 1 } else { 0 }"') do set "STALE=%%i"
+if "%STALE%"=="1" goto build
+goto run
 
 :build
 echo Building...

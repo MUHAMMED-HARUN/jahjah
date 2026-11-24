@@ -13,7 +13,8 @@ public class Product {
     private List<Integer> category = new ArrayList<>();
     private String categoryLabel = "";
     private double price;
-    private String imagePath;
+    /** صور المنتج مرتبة حسب order. */
+    private List<ProductImage> image = new ArrayList<>();
     private String packing = "";
     private List<String> description = new ArrayList<>();
     private String nameingAsProgram = "";
@@ -43,8 +44,18 @@ public class Product {
     public double getPrice() { return price; }
     public void setPrice(double price) { this.price = price; }
 
-    public String getImagePath() { return imagePath; }
-    public void setImagePath(String imagePath) { this.imagePath = imagePath; }
+    public List<ProductImage> getImage() { return image; }
+    public void setImage(List<ProductImage> image) {
+        this.image = new ArrayList<>();
+        if (image != null) for (ProductImage i : image) this.image.add(i.copy());
+    }
+
+    /** الصورة الرئيسية (أصغر order) أو null. */
+    public String getMainImagePath() {
+        ProductImage main = null;
+        for (ProductImage i : image) if (main == null || i.getOrder() < main.getOrder()) main = i;
+        return main == null ? null : main.getPath();
+    }
 
     public String getPacking() { return packing; }
     public void setPacking(String packing) { this.packing = packing == null ? "" : packing; }
@@ -75,7 +86,7 @@ public class Product {
         p.category = new ArrayList<>(category);
         p.categoryLabel = categoryLabel;
         p.price = price;
-        p.imagePath = imagePath;
+        p.setImage(image);
         p.packing = packing;
         p.description = new ArrayList<>(description);
         p.nameingAsProgram = nameingAsProgram;

@@ -3,6 +3,7 @@ package jahjah.dal;
 import jahjah.shared.entities.Brand;
 import jahjah.shared.entities.BrandCatalog;
 import jahjah.shared.entities.Product;
+import jahjah.shared.entities.ProductImage;
 import jahjah.shared.enums.EnHasQuantity;
 
 import java.nio.file.Files;
@@ -91,7 +92,18 @@ public class BrandRepository {
         p.setCategoryLabel(Json.str(m, "categoryLabel"));
         Double price = Json.num(m, "price");
         p.setPrice(price == null ? 0 : price);
-        p.setImagePath(Json.str(m, "imagePath"));
+        List<ProductImage> imgs = new ArrayList<>();
+        if (m.get("image") instanceof List<?> il) {
+            for (Object o : il) {
+                if (o instanceof Map<?, ?> im && Json.str(im, "path") != null) {
+                    Double order = Json.num(im, "order");
+                    imgs.add(new ProductImage(Json.str(im, "path"), order == null ? imgs.size() + 1 : order.intValue()));
+                }
+            }
+        } else if (Json.str(m, "imagePath") != null && !Json.str(m, "imagePath").isBlank()) {
+            imgs.add(new ProductImage(Json.str(m, "imagePath"), 1)); // الشكل القديم: صورة واحدة
+        }
+        p.setImage(imgs);
         p.setPacking(Json.str(m, "packing"));
 
         List<String> desc = new ArrayList<>();
@@ -121,7 +133,14 @@ public class BrandRepository {
         }
         m.put("categoryLabel", p.getCategoryLabel());
         m.put("price", p.getPrice());
-        m.put("imagePath", p.getImagePath());
+        List<Object> imgs = new ArrayList<>();
+        for (ProductImage i : p.getImage()) {
+            Map<String, Object> im = new LinkedHashMap<>();
+            im.put("path", i.getPath());
+            im.put("order", i.getOrder());
+            imgs.add(im);
+        }
+        m.put("image", imgs);
         m.put("packing", p.getPacking());
         m.put("description", new ArrayList<>(p.getDescription()));
         m.put("nameingAsProgram", p.getNameingAsProgram());

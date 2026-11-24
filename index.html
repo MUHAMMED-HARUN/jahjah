@@ -11,13 +11,13 @@
     <header class="page-header">
       <div>
         <p class="eyebrow">كتالوج المنتجات</p>
-        <h1>المنتجات</h1>
-        <p class="page-subtitle">تصفّح حسب الماركة وتصنيف المنتج، وابحث بالاسم أو بالرمز.</p>
+        <h1 id="pageTitle">المنتجات</h1>
+        <p class="page-subtitle">تصفّح حسب الماركة وتصنيف المنتج، وأضف ما تريد إلى السلة.</p>
       </div>
-      <div class="view-switch" role="group" aria-label="طريقة العرض">
-        <button type="button" class="view-btn is-active" data-view="table">جدول</button>
-        <button type="button" class="view-btn" data-view="cards">كروت</button>
-      </div>
+      <nav class="view-switch" aria-label="الشاشات">
+        <button type="button" class="view-btn is-active" data-screen="products">المنتجات</button>
+        <button type="button" class="view-btn" data-screen="cart">السلة <span class="cart-badge" data-cart-count hidden>0</span></button>
+      </nav>
     </header>
 
     <main id="app">
@@ -29,6 +29,7 @@
 
   <script src="js/components.js" defer></script>
   <script src="js/data.js" defer></script>
+  <script src="js/cart.js" defer></script>
   <script src="js/app.js" defer></script>
 </body>
 </html>

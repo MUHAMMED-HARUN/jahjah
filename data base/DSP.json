@@ -13,7 +13,7 @@
       ],
       "categoryLabel": "غير مصنف",
       "price": 0,
-      "imagePath": null,
+      "image": [],
       "packing": "التعبئة ضمن الطرد / كرتون",
       "description": [
         "الوصف"
@@ -31,13 +31,18 @@
       ],
       "categoryLabel": "مطحنة قهوة وتوابل",
       "price": 11,
-      "imagePath": "images/DSP/KA3002.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3002.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "طاحونة كهربائية متينة ومدمجة مخصصة لطحن حبوب البن والتوابل والمكسرات.إليك جدول المواصفات الفنية الكاملة للجهاز:الخاصيةالمواصفات الفنيةالقدرة الكهربائية200 واطجهد التشغيل220-240 فولت (تردد 50/60 هرتز)السعة الإجمالية50 غرام تقريباًمادة الشفرات والوعاءالفولاذ المقاوم للصدأ (Stainless Steel)مادة الهيكل الخارجيبلاستيك قوي (ABS)مطحنة قهوة وتوابل DSP بقوة 200 واط طراز KA-3002"
       ],
       "nameingAsProgram": "",
-      "isActive": true,
+      "isActive": false,
       "enHasQuantity": "nothing"
     },
     {
@@ -49,7 +54,12 @@
       ],
       "categoryLabel": "غلاية كهربائية",
       "price": 6,
-      "imagePath": "images/DSP/KA3027.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3027.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -72,7 +82,16 @@
       ],
       "categoryLabel": "غلاية كهربائية",
       "price": 8.5,
-      "imagePath": "images/DSP/KA3037.png",
+      "image": [
+        {
+          "path": "images/DSP/15b11036-3b34-4a38-a3a3-2c8599202fc0.png",
+          "order": 1
+        },
+        {
+          "path": "images/DSP/KA3037.png",
+          "order": 2
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -95,7 +114,12 @@
       ],
       "categoryLabel": "مضرب قهوة",
       "price": 5.5,
-      "imagePath": "images/DSP/KA3069.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3069.png",
+          "order": 1
+        }
+      ],
       "packing": "40 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -118,7 +142,12 @@
       ],
       "categoryLabel": "ماكينة قهوة إسبروسو",
       "price": 77,
-      "imagePath": "images/DSP/KA3065.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3065.png",
+          "order": 1
+        }
+      ],
       "packing": "3 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -141,7 +170,12 @@
       ],
       "categoryLabel": "ماكينة قهوة إسبروسو",
       "price": 76,
-      "imagePath": "images/DSP/KA3090.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3090.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: 220-240 فولت ~ 50/60 هرتز/الطاقة: 850 واط",
@@ -166,7 +200,12 @@
       ],
       "categoryLabel": "ماكينة قهوة إسبروسو",
       "price": 70,
-      "imagePath": "images/DSP/KA3091.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3091.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز/الطاقة: ٨٥٠ واط",
@@ -191,7 +230,12 @@
       ],
       "categoryLabel": "مطحنة قهوة وتوابل",
       "price": 11,
-      "imagePath": "images/DSP/KA3130.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3130.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز/الطاقة: ٢٠٠ واط",
@@ -215,7 +259,12 @@
       ],
       "categoryLabel": "مضرب رغوة الحليب",
       "price": 4.25,
-      "imagePath": "images/DSP/KA3132.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3132.png",
+          "order": 1
+        }
+      ],
       "packing": "60 / كرتون",
       "description": [
         "مضرب كهربائي محمول وقابل لإعادة الشحن (2 في 1)، مصمم خصيصاً لتحضير رغوة الكابتشينو والنسكافيه الكثيفة، وخفق البيض والخلطات الخفيفة.أبرز المواصفات الفنية والعملية:الأداء والسرعة: يأتي بموتور قوي مزود بـ 3 سرعات قابلة للتعديل (5800 / 8500 / 10200 دورة في الدقيقة).البطارية والطاقة: يعمل ببطارية ليثيوم مدمجة بسعة 1200mAh.الشحن: يتم الشحن عبر كابل USB، مما يغنيك عن استخدام البطاريات العادية أو الحاجة للبقاء متصلاً بالكهرباء أثناء الاستخدام."
@@ -233,7 +282,16 @@
       ],
       "categoryLabel": "جهاز رغوة الحليب",
       "price": 20,
-      "imagePath": "images/DSP/KA3143.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3143.png",
+          "order": 1
+        },
+        {
+          "path": "images/DSP/a92f9106-9eea-4389-880e-8641f1e4adab.png",
+          "order": 2
+        }
+      ],
       "packing": "12 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠-٦٠ هرتز",
@@ -249,7 +307,7 @@
       ],
       "nameingAsProgram": "",
       "isActive": true,
-      "enHasQuantity": "nothing"
+      "enHasQuantity": "lot"
     },
     {
       "guid": "c02eb0e8-7f2c-4cd9-b693-73d15fe29403",
@@ -260,7 +318,12 @@
       ],
       "categoryLabel": "مضرب قهوة",
       "price": 4.25,
-      "imagePath": "images/DSP/KA3145.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3145.png",
+          "order": 1
+        }
+      ],
       "packing": "60 / كرتون",
       "description": [
         "الجهد: ٥ فولت ١ أمبير/الطاقة: ٤ واط/محرك ٢٥٨٠",
@@ -285,7 +348,12 @@
       ],
       "categoryLabel": "ماكينة قهوة كبسولات",
       "price": 56,
-      "imagePath": "images/DSP/KA3148.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3148.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد الكهربائي: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -309,7 +377,12 @@
       ],
       "categoryLabel": "مطحنة قهوة وتوابل",
       "price": 10,
-      "imagePath": "images/DSP/KA3156.png",
+      "image": [
+        {
+          "path": "images/DSP/KA3156.png",
+          "order": 1
+        }
+      ],
       "packing": "32 / كرتون",
       "description": [
         "طاحونة كهربائية قوية ومدمجة مخصصة لطحن حبوب القهوة، التوابل، الأعشاب، المكسرات، والحبوب الجافة. وتتميز بمحرك عالي السرعة والأداء مقارنة بالموديلات السابقة لتوفير طحن سريع ومتناسق.إليك جدول المواصفات الفنية الكاملة للموديل KA3156:الخاصيةالمواصفات الفنيةالقدرة الكهربائية500 واط (محرك قوي جداً للأداء السريع)سرعة الدوران35,000 دورة في الدقيقة (35000 RPM)نوع المحركمحرك متطور موديل 5415السعة الإجمالية80 غراممادة الشفرات والوعاءفولاذ مقاوم للصدأ عالي الجودة (SUS304)الهيكل الخارجيمزيج من الستانلس ستيل المتين وبلاستيك ABSغطاء الحمايةغطاء شفاف واقٍ يمنع تطاير وتناثر القهوة أثناء الطحن"
@@ -327,7 +400,12 @@
       ],
       "categoryLabel": "صانعة الزبادي",
       "price": 16,
-      "imagePath": "images/DSP/KA4010.png",
+      "image": [
+        {
+          "path": "images/DSP/KA4010.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -350,7 +428,12 @@
       ],
       "categoryLabel": "قلاية هوائية",
       "price": 45.5,
-      "imagePath": "images/DSP/KB2020.png",
+      "image": [
+        {
+          "path": "images/DSP/KB2020.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "قلاية هوائية صحية (Air Fryer) مدمجة تعمل بدون زيت. تمثل هذه الفئة انتقالاً آخراً في المنتجات لتوفير وسيلة طهي صحية تعتمد على تقنية تدوير الهواء الساخن بنسبة 360 درجة، مما يقلل من الدهون بنسبة تصل إلى 80% KB2020:الخاصيةالمواصفات الفنيةالقدرة الكهربائية1350 واط (أداء اقتصادي وسريع في استهلاك الطاقة)جهد التشغيل220-240 فولت (تردد 50/60 هرتز)السعة الإجمالية2.6 لتر (مثالية للاستخدام الفردي، العائلات الصغيرة، أو الوجبات السريعة) ومزودة بطبقة مانعة للالتصاقعنصر التسخينمصنوع من الفولاذ المقاوم للصدأ عالي الجودة (SUS304)الهيكل الخارجيهيكل بارد وعازل تماماً للحرارة (Cool-touch housing) ومقاوم لدرجات الحرارة العالية"
@@ -368,7 +451,12 @@
       ],
       "categoryLabel": "قلاية هوائية",
       "price": 66,
-      "imagePath": "images/DSP/KB2066.png",
+      "image": [
+        {
+          "path": "images/DSP/KB2066.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "قلاية هوائية رقمية صحية (Digital Air Fryer) كبيرة الحجم تعمل بدون زيت. يأتي هذا الطراز كترقية عائلية ممتازة بسعة ضخمة وقدرة تسخين قوية، وتعتمد على تقنية تدوير الهواء الساخن بزاوية 360 درجة لطهي الطعام ليصبح مقرمشاً من الخارج وطرياً من الداخل مع تقليل الدهون بنسبة تصل إلى 99%.إليك جدول المواصفات الفنية الكاملة للموديل KB2066:الخاصيةالمواصفات الفنيةالقدرة الكهربائية1700 واط (قوة تسخين مكثفة للكميات الكبيرة)جهد التشغيل220-240 فولت (تردد 50/60 هرتز)السعة الإجماليةمتوفرة بسعة عائلية ضخمة (6 لتر أو 8.5 لتر بحسب فئة التوزيع)واجهة التحكمشاشة رقمية تعمل باللمس (Digital LED Display) مدمجة وذكيةنطاق درجات الحرارةقابلة للتعديل بدقة من 65 وحتى 200 درجة مئويةالمؤقت الزمنيمؤقت رقمي ذكي يصل إلى 60 دقيقة مع ميزة الإيقاف التلقائي وجرس التنبيه"
@@ -386,7 +474,12 @@
       ],
       "categoryLabel": "قلاية هوائية",
       "price": 39,
-      "imagePath": "images/DSP/KB2109A.png",
+      "image": [
+        {
+          "path": "images/DSP/KB2109A.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -411,7 +504,12 @@
       ],
       "categoryLabel": "قلاية هوائية",
       "price": 51,
-      "imagePath": "images/DSP/KB2122.png",
+      "image": [
+        {
+          "path": "images/DSP/KB2122.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -436,7 +534,12 @@
       ],
       "categoryLabel": "قلاية هوائية",
       "price": 50,
-      "imagePath": "images/DSP/KB2139.png",
+      "image": [
+        {
+          "path": "images/DSP/KB2139.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -459,7 +562,12 @@
       ],
       "categoryLabel": "مقلاة عميقة",
       "price": 25,
-      "imagePath": "images/DSP/KB2187.png",
+      "image": [
+        {
+          "path": "images/DSP/KB2187.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠-٦٠ هرتز",
@@ -485,7 +593,12 @@
       ],
       "categoryLabel": "قدر ضغط كهربائي",
       "price": 30,
-      "imagePath": "images/DSP/KB5009.png",
+      "image": [
+        {
+          "path": "images/DSP/KB5009.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -507,7 +620,12 @@
       ],
       "categoryLabel": "قدر ضغط كهربائي",
       "price": 79,
-      "imagePath": "images/DSP/KB5037.png",
+      "image": [
+        {
+          "path": "images/DSP/KB5037.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "طنجرة الضغط الكهربائي DSP موديل KB5037 سعة 8 لتر وقوة 1350 واط:المواصفات الفنية والكهربائيةالقدرة الكهربائية: 1350 واط.السعة الإجمالية: 8 لتر (سعة كبيرة تناسب العائلات).جهد التشغيل: 220-240 فولت ~ 50/60 هرتز.قيمة الضغط: 50 كيلوباسكال، ويمكن أن تصل كحد أقصى إلى 70 كيلوباسكال.الوزن الصافي: 6.1 كيلوغرام للجهاز بمفرده."
@@ -525,7 +643,12 @@
       ],
       "categoryLabel": "صانعة سندويشات",
       "price": 11.5,
-      "imagePath": "images/DSP/KC1170.png",
+      "image": [
+        {
+          "path": "images/DSP/KC1170.png",
+          "order": 1
+        }
+      ],
       "packing": "10 / كرتون",
       "description": [
         "ماكينة صنع الساندوتشات DSP KC1170 هي جهاز منزلي عملي مصمم لتحضير السندوتشات الساخنة بسرعة.أبرز مواصفات الجهاز:القوة الكهربائية: 800 واط.ألواح التسخين: مطلية بمادة غير لاصقة لسهولة التنظيف ومنع احتراق الطعام.حجم الألواح: 21.5 × 12.5 سم.التصميم والأمان: هيكل خارجي متين مقاوم للحرارة العالية، مع مقبض عازل للحرارة لحماية اليدين.التحكم في درجة الحرارة: مزود بترموستات للتحكم التلقائي في درجات الحرارة ومؤشرات ضوئية.اللون: متوفر عادة باللون الأسود والفضي"
@@ -543,7 +666,12 @@
       ],
       "categoryLabel": "صانعة سندويشات",
       "price": 27,
-      "imagePath": "images/DSP/KC1237.png",
+      "image": [
+        {
+          "path": "images/DSP/KC1237.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -568,7 +696,12 @@
       ],
       "categoryLabel": "صانعة سندويشات",
       "price": 30,
-      "imagePath": "images/DSP/KC1238.png",
+      "image": [
+        {
+          "path": "images/DSP/KC1238.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: 220-240 فولت ~ 50/60 هرتز",
@@ -593,7 +726,12 @@
       ],
       "categoryLabel": "صانعة سندويشات",
       "price": 21,
-      "imagePath": "images/DSP/KC1350.png",
+      "image": [
+        {
+          "path": "images/DSP/KC1350.png",
+          "order": 1
+        }
+      ],
       "packing": "8 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -618,7 +756,12 @@
       ],
       "categoryLabel": "محمصة خبز",
       "price": 15,
-      "imagePath": "images/DSP/KC2045.png",
+      "image": [
+        {
+          "path": "images/DSP/KC2045.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز/القوة: ٧٠٠-٨٥٠ واط",
@@ -643,7 +786,12 @@
       ],
       "categoryLabel": "صانعة كيك",
       "price": 50,
-      "imagePath": "images/DSP/KC3009.png",
+      "image": [
+        {
+          "path": "images/DSP/KC3009.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "صانعة كيك كهربائية متطورة (Cake Maker) مصممة لإعداد الكيك والقوالب الإسفنجية الكبيرة في المنزل بسرعة وكفاءة بديلة للفرن التقليدي.إليك جدول المواصفات الفنية والمميزات الأساسية للجهاز:📊 المواصفات الفنيةرقم الموديل: KC3009.القوة الكهربائية: 1600 واط (1600W) لضمان تسخين سريع.الجهد الكهربائي: 220 - 240 فولت / بتردد 50-60 هرتز.قطر سطح الطهي: 28 سم (حجم جامبو عائلي).أبعاد القاعدة: 34.5 × 20 × 11 سم.مبدأ التسخين: أنابيب تسخين علوية وسفلية لتوزيع متساوٍ للحرارة."
@@ -661,7 +809,12 @@
       ],
       "categoryLabel": "صانعة كريب",
       "price": 10.5,
-      "imagePath": "images/DSP/KC3016.png",
+      "image": [
+        {
+          "path": "images/DSP/KC3016.png",
+          "order": 1
+        }
+      ],
       "packing": "12 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -685,7 +838,12 @@
       ],
       "categoryLabel": "مكواة بخار",
       "price": 54,
-      "imagePath": "images/DSP/KD1105.png",
+      "image": [
+        {
+          "path": "images/DSP/KD1105.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -709,7 +867,12 @@
       ],
       "categoryLabel": "مكواة بخار ملابس",
       "price": 15.5,
-      "imagePath": "images/DSP/KD1346.png",
+      "image": [
+        {
+          "path": "images/DSP/KD1346.png",
+          "order": 1
+        }
+      ],
       "packing": "16 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -734,7 +897,12 @@
       ],
       "categoryLabel": "جهاز تفريغ الهواء",
       "price": 14.04,
-      "imagePath": "images/DSP/KD2033.png",
+      "image": [
+        {
+          "path": "images/DSP/KD2033.png",
+          "order": 1
+        }
+      ],
       "packing": "20 / كرتون",
       "description": [
         "الجهد: 220-240 فولت ~ 50/60 هرتز/القوة: 110 واط",
@@ -759,7 +927,12 @@
       ],
       "categoryLabel": "مكنسة كهربائية",
       "price": 81,
-      "imagePath": "images/DSP/KD2044.png",
+      "image": [
+        {
+          "path": "images/DSP/KD2044.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ١٠٠-٢٤٠ فولت ~ ٥٠-٦٠ هرتز/الطاقة: ٣٠٠ واط",
@@ -782,7 +955,12 @@
       ],
       "categoryLabel": "مكنسة كهربائية",
       "price": 54,
-      "imagePath": "images/DSP/KD2048.png",
+      "image": [
+        {
+          "path": "images/DSP/KD2048.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: 100-240 فولت ~ 50/60 هرتز/القوة: 120 واط",
@@ -807,7 +985,12 @@
       ],
       "categoryLabel": "جهاز تنظيف بقع محمول",
       "price": 59.5,
-      "imagePath": "images/DSP/KD2049.png",
+      "image": [
+        {
+          "path": "images/DSP/KD2049.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: ١١.١ فولت/الطاقة: ٥٧-٦٣ واط",
@@ -831,7 +1014,12 @@
       ],
       "categoryLabel": "مكنسة كهربائية",
       "price": 16.5,
-      "imagePath": "images/DSP/KD2054.png",
+      "image": [
+        {
+          "path": "images/DSP/KD2054.png",
+          "order": 1
+        }
+      ],
       "packing": "8 / كرتون",
       "description": [
         "الجهد: تيار مستمر ٧٫٤ فولت ٨ أمبير",
@@ -857,7 +1045,12 @@
       ],
       "categoryLabel": "مكنسة كهربائية",
       "price": 59.5,
-      "imagePath": "images/DSP/KD2063.png",
+      "image": [
+        {
+          "path": "images/DSP/KD2063.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢.٢ فولت/الطاقة: ١٥٠ واط",
@@ -881,7 +1074,12 @@
       ],
       "categoryLabel": "ممسحة بخارية",
       "price": 41,
-      "imagePath": "images/DSP/KD2071.png",
+      "image": [
+        {
+          "path": "images/DSP/KD2071.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "رقم المنتج",
@@ -906,7 +1104,12 @@
       ],
       "categoryLabel": "ممسحة بخارية",
       "price": 75,
-      "imagePath": "images/DSP/KD2081.png",
+      "image": [
+        {
+          "path": "images/DSP/KD2081.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "ممسحة بخارية دوارة (Rotating Steam Mop) مخصصة للتنظيف العميق وتعقيم الأرضيات والأسطح بقوة البخار.إليك المواصفات الفنية والميزات الرئيسية للجهاز بالتفصيل:⚙️ المواصفات الفنيةالقدرة الكهربائية: 1500 واط لأداء قوي وسريع في توليد البخار.سعة خزان المياه: 400 مل.طول سلك الكهرباء: 4.85 متر لتوفر حرية حركة واسعة داخل الغرف.درجة حرارة البخار: تصل إلى حوالي 110 درجة مئوية لضمان التعقيم"
@@ -924,7 +1127,12 @@
       ],
       "categoryLabel": "مدفأة زيت",
       "price": 60,
-      "imagePath": "images/DSP/KD3021.png",
+      "image": [
+        {
+          "path": "images/DSP/KD3021.png",
+          "order": 1
+        }
+      ],
       "packing": "1 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -949,7 +1157,12 @@
       ],
       "categoryLabel": "مدفأة مروحة",
       "price": 25,
-      "imagePath": "images/DSP/KD3033.png",
+      "image": [
+        {
+          "path": "images/DSP/KD3033.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠ هرتز",
@@ -974,7 +1187,12 @@
       ],
       "categoryLabel": "مروحة عمودية",
       "price": 58.5,
-      "imagePath": "images/DSP/KD3071.png",
+      "image": [
+        {
+          "path": "images/DSP/KD3071.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "تصميم أنيق بأبعاد (55.11 × 16) بوصة يجمع بين الأناقة والراحة.",
@@ -997,7 +1215,12 @@
       ],
       "categoryLabel": "مروحة عمودية",
       "price": 41,
-      "imagePath": "images/DSP/KD3077.png",
+      "image": [
+        {
+          "path": "images/DSP/KD3077.png",
+          "order": 1
+        }
+      ],
       "packing": "1 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1021,7 +1244,12 @@
       ],
       "categoryLabel": "مروحة عمودية",
       "price": 35,
-      "imagePath": "images/DSP/KD3081.png",
+      "image": [
+        {
+          "path": "images/DSP/KD3081.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الخرج: ٦٠ واط",
@@ -1046,7 +1274,12 @@
       ],
       "categoryLabel": "مروحة عمودية",
       "price": 58.5,
-      "imagePath": "images/DSP/KD3093.png",
+      "image": [
+        {
+          "path": "images/DSP/KD3093.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الحجم: 18 بوصة (مقاس كبير).",
@@ -1067,7 +1300,12 @@
       ],
       "categoryLabel": "مرطب هواء",
       "price": 21,
-      "imagePath": "images/DSP/KD3083.png",
+      "image": [
+        {
+          "path": "images/DSP/KD3083.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠ هرتز",
@@ -1090,7 +1328,12 @@
       ],
       "categoryLabel": "صفيحة تسخين",
       "price": 28,
-      "imagePath": "images/DSP/KD4050.png",
+      "image": [
+        {
+          "path": "images/DSP/KD4050.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1114,7 +1357,12 @@
       ],
       "categoryLabel": "صفيحة تسخين",
       "price": 6.48,
-      "imagePath": "images/DSP/KD4054.png",
+      "image": [
+        {
+          "path": "images/DSP/KD4054.png",
+          "order": 1
+        }
+      ],
       "packing": "12 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1138,7 +1386,12 @@
       ],
       "categoryLabel": "صفيحة تسخين",
       "price": 18.5,
-      "imagePath": "images/DSP/KD4056.png",
+      "image": [
+        {
+          "path": "images/DSP/KD4056.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1163,7 +1416,12 @@
       ],
       "categoryLabel": "صفيحة تسخين",
       "price": 28,
-      "imagePath": "images/DSP/KD4057.png",
+      "image": [
+        {
+          "path": "images/DSP/KD4057.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1188,7 +1446,12 @@
       ],
       "categoryLabel": "صفيحة تسخين",
       "price": 7,
-      "imagePath": "images/DSP/KD4063.png",
+      "image": [
+        {
+          "path": "images/DSP/KD4063.png",
+          "order": 1
+        }
+      ],
       "packing": "20 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠-٦٠ هرتز",
@@ -1213,7 +1476,12 @@
       ],
       "categoryLabel": "طباخ بالأشعة تحت الحمراء",
       "price": 39,
-      "imagePath": "images/DSP/KD5033.png",
+      "image": [
+        {
+          "path": "images/DSP/KD5033.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز/الطاقة: ٢٠٠٠ واط",
@@ -1237,7 +1505,12 @@
       ],
       "categoryLabel": "طباخ بالأشعة تحت الحمراء",
       "price": 18.5,
-      "imagePath": "images/DSP/KD5060.png",
+      "image": [
+        {
+          "path": "images/DSP/KD5060.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1261,7 +1534,12 @@
       ],
       "categoryLabel": "مكواة بخار ملابس",
       "price": 49,
-      "imagePath": "images/DSP/KD6016.png",
+      "image": [
+        {
+          "path": "images/DSP/KD6016.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1284,7 +1562,12 @@
       ],
       "categoryLabel": "مكواة بخار ملابس",
       "price": 44,
-      "imagePath": "images/DSP/KD6019.png",
+      "image": [
+        {
+          "path": "images/DSP/KD6019.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1307,7 +1590,12 @@
       ],
       "categoryLabel": "ميزان مطبخ",
       "price": 5.5,
-      "imagePath": "images/DSP/KD7032.png",
+      "image": [
+        {
+          "path": "images/DSP/KD7032.png",
+          "order": 1
+        }
+      ],
       "packing": "12 / كرتون",
       "description": [
         "حجم المنتج: ٢٢×١٩.٥×١٢.٥ سم",
@@ -1330,7 +1618,12 @@
       ],
       "categoryLabel": "صانعة الثلج",
       "price": 85,
-      "imagePath": "images/DSP/KD8001.png",
+      "image": [
+        {
+          "path": "images/DSP/KD8001.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠ هرتز",
@@ -1354,7 +1647,12 @@
       ],
       "categoryLabel": "عصارة حمضيات",
       "price": 27,
-      "imagePath": "images/DSP/KJ1049.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ1049.png",
+          "order": 1
+        }
+      ],
       "packing": "8 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1376,7 +1674,12 @@
       ],
       "categoryLabel": "عصارة حمضيات",
       "price": 7.35,
-      "imagePath": "images/DSP/KJ1060.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ1060.png",
+          "order": 1
+        }
+      ],
       "packing": "12 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1401,7 +1704,12 @@
       ],
       "categoryLabel": "عصارة حمضيات",
       "price": 29,
-      "imagePath": "images/DSP/KJ1079.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ1079.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "عصارة الحمضيات الكهربائية الشهيرة من ماركة DSP العالمية. إليك كامل مواصفات الجهاز الفنية والتشغيلية:المواصفات الفنية والكهربائيةالقدرة الكهربائية: 350 واط.جهد التشغيل: 220 - 240 فولت.التردد: 50 / 60 هرتز.السعة: 0.4 لتر (400 مل).نوع المحرك: محرك نحاسي نقي قوي (فئة 635C)"
@@ -1419,7 +1727,12 @@
       ],
       "categoryLabel": "عصارة حمضيات",
       "price": 10,
-      "imagePath": "images/DSP/KJ1083.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ1083.png",
+          "order": 1
+        }
+      ],
       "packing": "12 / كرتون",
       "description": [
         "المواصفات الفنية",
@@ -1441,7 +1754,12 @@
       ],
       "categoryLabel": "عصارة حمضيات",
       "price": 30,
-      "imagePath": "images/DSP/KJ1084.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ1084.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "✅ صينية عصر من الفولاذ المقاوم للصدأ 304",
@@ -1463,7 +1781,12 @@
       ],
       "categoryLabel": "عصارة حمضيات",
       "price": 17,
-      "imagePath": "images/DSP/KJ1085.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ1085.png",
+          "order": 1
+        }
+      ],
       "packing": "8 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1487,7 +1810,12 @@
       ],
       "categoryLabel": "خلاط",
       "price": 32,
-      "imagePath": "images/DSP/KJ2097.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ2097.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1510,7 +1838,12 @@
       ],
       "categoryLabel": "خلاط",
       "price": 27,
-      "imagePath": "images/DSP/KJ2099.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ2099.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1535,7 +1868,12 @@
       ],
       "categoryLabel": "خلاط",
       "price": 65,
-      "imagePath": "images/DSP/KJ2110.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ2110.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1559,7 +1897,12 @@
       ],
       "categoryLabel": "خلاط",
       "price": 54,
-      "imagePath": "images/DSP/KJ2128.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ2128.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز/الطاقة: ٨٠٠ واط",
@@ -1581,7 +1924,12 @@
       ],
       "categoryLabel": "خلاط",
       "price": 42,
-      "imagePath": "images/DSP/KJ2177.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ2177.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: 220-240 فولت ~ 50/60 هرتز",
@@ -1605,7 +1953,12 @@
       ],
       "categoryLabel": "عصارة كهربائية",
       "price": 46.5,
-      "imagePath": "images/DSP/KJ3003.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ3003.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠-٦٠ هرتز",
@@ -1629,7 +1982,12 @@
       ],
       "categoryLabel": "محضر طعام",
       "price": 39,
-      "imagePath": "images/DSP/KJ3053.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ3053.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1652,7 +2010,12 @@
       ],
       "categoryLabel": "عصارة بطيئة",
       "price": 64,
-      "imagePath": "images/DSP/KJ3071.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ3071.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1676,7 +2039,12 @@
       ],
       "categoryLabel": "عصارة بطيئة",
       "price": 67,
-      "imagePath": "images/DSP/KJ3081.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ3081.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز/الطاقة: ٢٥٠-٣٠٠ واط",
@@ -1699,7 +2067,12 @@
       ],
       "categoryLabel": "عصارة بطيئة",
       "price": 51,
-      "imagePath": "images/DSP/KJ3084.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ3084.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز/الطاقة: ٢٠٠ واط",
@@ -1723,7 +2096,12 @@
       ],
       "categoryLabel": "آلة مشروبات مثلجة",
       "price": 180,
-      "imagePath": "images/DSP/KJ3085.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ3085.png",
+          "order": 1
+        }
+      ],
       "packing": "1 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1748,7 +2126,12 @@
       ],
       "categoryLabel": "آلة مشروبات مثلجة",
       "price": 210,
-      "imagePath": "images/DSP/KJ3087.png",
+      "image": [
+        {
+          "path": "images/DSP/KJ3087.png",
+          "order": 1
+        }
+      ],
       "packing": "1 / كرتون",
       "description": [
         "مشروبات مثلجة فورية بضغطة زر. 🍹🍹",
@@ -1775,7 +2158,12 @@
       ],
       "categoryLabel": "غلاية كهربائية",
       "price": 26,
-      "imagePath": "images/DSP/KK1145.png",
+      "image": [
+        {
+          "path": "images/DSP/KK1145.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "قدرة الغليان: ١٨٥٠-٢٢٠٠ واط",
@@ -1800,7 +2188,12 @@
       ],
       "categoryLabel": "موزع مياه ساخنة",
       "price": 38,
-      "imagePath": "images/DSP/KK1259.png",
+      "image": [
+        {
+          "path": "images/DSP/KK1259.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1823,7 +2216,12 @@
       ],
       "categoryLabel": "مبرد مياه",
       "price": 130,
-      "imagePath": "images/DSP/KK3022.png",
+      "image": [
+        {
+          "path": "images/DSP/KK3022.png",
+          "order": 1
+        }
+      ],
       "packing": "1 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1849,7 +2247,12 @@
       ],
       "categoryLabel": "مبرد مياه",
       "price": 160,
-      "imagePath": "images/DSP/KK3024.png",
+      "image": [
+        {
+          "path": "images/DSP/KK3024.png",
+          "order": 1
+        }
+      ],
       "packing": "1 / كرتون",
       "description": [
         "* قوة التسخين: 580 واط. قوة التبريد: 90 واط.",
@@ -1872,7 +2275,12 @@
       ],
       "categoryLabel": "مبرد مياه",
       "price": 160,
-      "imagePath": "images/DSP/KK3025.png",
+      "image": [
+        {
+          "path": "images/DSP/KK3025.png",
+          "order": 1
+        }
+      ],
       "packing": "1 / كرتون",
       "description": [
         "🥤 3 صنابير: ماء ساخن، عادي، وبارد (بارد: 5-10 درجة مئوية)",
@@ -1895,7 +2303,12 @@
       ],
       "categoryLabel": "خلاط",
       "price": 11,
-      "imagePath": "images/DSP/KM2135.png",
+      "image": [
+        {
+          "path": "images/DSP/KM2135.png",
+          "order": 1
+        }
+      ],
       "packing": "20 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠-٦٠ هرتز",
@@ -1918,7 +2331,12 @@
       ],
       "categoryLabel": "خلاط",
       "price": 120,
-      "imagePath": "images/DSP/KM3031.png",
+      "image": [
+        {
+          "path": "images/DSP/KM3031.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1943,7 +2361,12 @@
       ],
       "categoryLabel": "عجانة",
       "price": 55,
-      "imagePath": "images/DSP/KM3089.png",
+      "image": [
+        {
+          "path": "images/DSP/KM3089.png",
+          "order": 1
+        }
+      ],
       "packing": "4 / كرتون",
       "description": [
         "عجانة DSP KM3089 هي جهاز منزلي عملي يجمع بين العجن والتخمير. يتميز الجهاز بمحرك بقوة 450 واط، ووعاء ستانلس ستيل بسعة 5 لتر، مما يجعله مثالياً لتحضير العجين للمخبوزات والبيتزا.💡 المواصفات الفنيةالقدرة: 450 واط (محرك نحاسي خالص).السعة: 5 لتر.الخامة: وعاء من الستانلس ستيل 304 الآمن غذائياً.وظيفة التخمير: يتيح لك تخمير العجين بضبط مؤقت (30، 60، أو 90 دقيقة).وظيفة الخلط/العجن: إعدادات لضبط الوقت (5، 10، أو 15 دقيقة).الأمان: مزود بقفل لتثبيت الوعاء، وقواعد مطاطية مانعة للانزلاق."
@@ -1961,7 +2384,12 @@
       ],
       "categoryLabel": "مفرمة طعام",
       "price": 21.5,
-      "imagePath": "images/DSP/KM4045.png",
+      "image": [
+        {
+          "path": "images/DSP/KM4045.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -1984,7 +2412,12 @@
       ],
       "categoryLabel": "محضر طعام للأطفال",
       "price": 9,
-      "imagePath": "images/DSP/KM4112.png",
+      "image": [
+        {
+          "path": "images/DSP/KM4112.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: ٢٢٠ فولت ~ ٥٠ هرتز/الطاقة: ١٥٠ واط",
@@ -2006,7 +2439,12 @@
       ],
       "categoryLabel": "مفرمة لحم",
       "price": 30,
-      "imagePath": "images/DSP/KM5051.png",
+      "image": [
+        {
+          "path": "images/DSP/KM5051.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2030,7 +2468,12 @@
       ],
       "categoryLabel": "مفرمة لحم",
       "price": 90,
-      "imagePath": "images/DSP/KM5070.png",
+      "image": [
+        {
+          "path": "images/DSP/KM5070.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "مفرمة لحم كهربائية قوية ومصممة للاستخدام المنزلي الشاق من شركة DSP.إليك جدول المواصفات الفنية والمميزات الكاملة للجهاز:المواصفات التقنيةالقدرة الاسمية: 700 واطالقدرة القصوى (عند الانغلاق): 1800 واطنوع المحرك: موتور نحاسي خالص (موديل 8840) لضمان عمر أطول وكفاءة عاليةالجهد الكهربائي: 220-240 فولت ~ 50/60 هرتزمادة الهيكل: ألومنيوم مصبوب متين ومقاوم للصدمات"
@@ -2048,7 +2491,12 @@
       ],
       "categoryLabel": "طقم أواني طبخ",
       "price": 75,
-      "imagePath": "images/DSP/CA001-S01.png",
+      "image": [
+        {
+          "path": "images/DSP/CA001-S01.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "طقم طناجر خماسي غرانيت"
@@ -2066,7 +2514,12 @@
       ],
       "categoryLabel": "طقم أواني طبخ",
       "price": 70,
-      "imagePath": "images/DSP/CA005-S01.png",
+      "image": [
+        {
+          "path": "images/DSP/CA005-S01.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [
         "طقم 4 قطع قياس 20/24/28/28"
@@ -2084,7 +2537,12 @@
       ],
       "categoryLabel": "طقم أواني طبخ",
       "price": 70,
-      "imagePath": "images/DSP/CA018-S01.png",
+      "image": [
+        {
+          "path": "images/DSP/CA018-S01.png",
+          "order": 1
+        }
+      ],
       "packing": "2 / كرتون",
       "description": [],
       "nameingAsProgram": "",
@@ -2100,7 +2558,12 @@
       ],
       "categoryLabel": "فرن كهربائي",
       "price": 155,
-      "imagePath": "images/DSP/KT80.png",
+      "image": [
+        {
+          "path": "images/DSP/KT80.png",
+          "order": 1
+        }
+      ],
       "packing": "1 / كرتون",
       "description": [
         "الفرن الكهربائي DSP KT80 (الموديل KT80-BS) هو فرن كهربائي بمقاس عائلي كبير سعة 80 لتراً وقوة تسخين تصل إلى 2400 واط، ويتميز بهيكل متين من الإستانلس ستيل ويدعم خاصية التوزيع الحراري (Convection) والشواء.المواصفات الفنية والتشغيلية الكاملة للفرن مصنفة في النقاط التالية لجعل قراءتها أسهل:⚡ الطاقة والأداءالقوة الكهربائية: 2400 واط لأداء تسخين سريع ومتساوٍ.الجهد الكهربائي: 220-240 فولت، بتردد 50/60 هرتز.التحكم في الحرارة: تيرموستات قابل للتعديل يبدأ من 70 حتى 250 درجة مئوية.📐 التصميم والسعةالسعة الداخلية: 80 لتراً (تتسع لصواني عائلية ضخمة أو دجاجتين معاً للشواء)."
@@ -2118,7 +2581,12 @@
       ],
       "categoryLabel": "بكرات شعر ساخنة",
       "price": 17,
-      "imagePath": "images/DSP/21036.png",
+      "image": [
+        {
+          "path": "images/DSP/21036.png",
+          "order": 1
+        }
+      ],
       "packing": "16 / كرتون",
       "description": [
         "جهاز رولات الشعر الحرارية دي اس بي (DSP Heated Hair Rollers Set - الموديل 21036) هو طقم بكرات لف الشعر الساخنة المصمم لمنح الشعر حجماً كثيفاً (Volume) وتموجات طبيعية وناعمة في المنزل بكل سهولة.إليكِ المواصفات الفنية والتشغيلية الكاملة لهذا الجهاز:⚙️ الأداء والقدرة التشغيليةالقوة الكهربائية: 450 واط لضمان تسخين قوي وسريع للبكرات.تقنية التسخين السريع: الجاهزية للعمل خلال 90 ثانية فقط لتوفير الوقت.أقصى درجة حرارة: تصل إلى 125 درجة مئوية (±10 درجات)، وهي درجة مثالية لتثبيت لفات الشعر دون التسبب في تلفه.نظام الأمان: تشتمل القاعدة على تيرموستات مدمج للحماية التلقائية من الارتفاع المفرط لدرجة الحرارة (Overheat Protection)."
@@ -2136,7 +2604,12 @@
       ],
       "categoryLabel": "جهاز تنظيف مسامات الوجه",
       "price": 13,
-      "imagePath": "images/DSP/70165.png",
+      "image": [
+        {
+          "path": "images/DSP/70165.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "جهاز تنظيف مسامات الوجه والميكرودرم الحراري دي اس بي (DSP Blackhead Remover with Steam function - الموديل 70165) هو جهاز متطور للعناية بالبشرة وتنظيفها بعمق في المنزل، ويتميز بدمج تقنية الشفط مع ميزة البخار الدافئ لفتح المسام.إليكِ أبرز المواصفات والمميزات الفنية لهذا الجهاز:⚙️ الأداء والوظائف التشغيليةتقنية الشفط الاحترافي (Microdermabrasion): يوفر قوة شفط ومكشاً فعالاً للتخلص من الرؤوس السوداء، الدهون الزائدة، وبقايا المكياج العالقة في المسام.وظيفة البخار المدمجة (Steam Function): يحتوي على مخزن مخصص للماء يطلق بخاراً دافئاً ومكثفاً على البشرة قبل أو أثناء الاستخدام، مما يساعد على تليين الدهون وفتح المسامات المغلقة ليسهل تنظيفها دون تهيج"
@@ -2154,7 +2627,12 @@
       ],
       "categoryLabel": "مقشر القدمين الكهربائي",
       "price": 8,
-      "imagePath": "images/DSP/70342.png",
+      "image": [
+        {
+          "path": "images/DSP/70342.png",
+          "order": 1
+        }
+      ],
       "packing": "60 / كرتون",
       "description": [
         "جهاز إزالة الجلد الميت وتقشير القدمين الكهربائي دي اس بي (DSP Electric Foot Callus Remover - الموديل 70342) هو أداة عناية شخصية متطورة مصممة للتخلص من پينات القدمين والجلد الجاف والمتشقق بكفاءة وسلاسة في المنزل.تتضمن المواصفات الفنية والتشغيلية الكاملة لهذا الموديل ما يلي:⚙️ الأداء وقوة المحركقوة المحرك: يعمل بمحرك قوي موديل (FF-280PE) تصل سرعة دورانه إلى 10,000 دورة في الدقيقة (±10%) لضمان لبرد عميق وسريع للجلد الميت والعنيد.القدرة الكهربائية: استهلاك طاقة اقتصادي يبلغ 5 واط."
@@ -2172,7 +2650,12 @@
       ],
       "categoryLabel": "ماكينة تشذيب بيكيني",
       "price": 9,
-      "imagePath": "images/DSP/70538.png",
+      "image": [
+        {
+          "path": "images/DSP/70538.png",
+          "order": 1
+        }
+      ],
       "packing": "80 / كرتون",
       "description": [
         "ماكينة تشذيب وحلاقة بيكيني والجسم الثنائية دي اس بي للنساء (DSP 2-in-1 Dual Head Bikini & Body Trimmer - الموديل 70538) هي أداة العناية الشخصية المتطورة والمصممة لتوفير حلاقة ناعمة وآمنة بالكامل للمناطق الحساسة وكافة أجزاء الجسم دون ألم أو تهيج للبشرة.تتضمن المواصفات الفنية والتشغيلية الكاملة لهذا الموديل ما يلي:⚙️ الأداء والتصميم الثنائي (2-in-1)رأسين مدمجين للتشذيب: يتميز الجهاز بتصميم ذكي مزدوج الرأس لتلبية مختلف احتياجات التصفيف بدقة:شفرة الحلاقة الدقيقة (Shaving Blade): تعمل بسرعة 7,000 دورة في الدقيقة (±10%) لمنحكِ حلاقة ناعمة وقريبة جداً من الجلد."
@@ -2190,7 +2673,12 @@
       ],
       "categoryLabel": "جهاز إزالة الشعر بالليزر",
       "price": 60,
-      "imagePath": "images/DSP/70569.png",
+      "image": [
+        {
+          "path": "images/DSP/70569.png",
+          "order": 1
+        }
+      ],
       "packing": "16 / كرتون",
       "description": [
         "جهاز إزالة الشعر المنزلي بالليزر والنبضات الضوئية دي اس بي (DSP Home Laser IPL Hair Removal - الموديل 70569) هو جهاز متطور يوفر حلاً آمناً ومريحاً للتخلص من الشعر الزائد تدريجياً في المنزل باستخدام تكنولوجيا الضوء النبضي المكثف (IPL)، دون الحاجة لزيارة صالونات التجميل.إليكِ كافة المواصفات والخصائص الفنية والتشغيلية لهذا الموديل:⚙️ الأداء الفني والقدرةالتقنية المستخدمة: تقنية الضوء النبضي المكثف (IPL) لتعطيل بصيلات الشعر بفعالية ومنع نموها مجدداً بمرور الوقت.الطول الموجي للضوء: يتراوح بين 640 إلى 1200 نانومتر، وهو النطاق الآمن والمثالي للتغلغل داخل الجلد واستهداف الصبغة (الميلانين) في بصيلة الشعر مباشرة.عدد الومضات (عمر الجهاز): مزود بـ 999,999 ومضة (مليون ومضة تقريباً)، مما يضمن لكِ استخداماً طويل الأمد لعدة سنوات ويكفي لمعالجة كامل الجسم."
@@ -2208,7 +2696,12 @@
       ],
       "categoryLabel": "مكواة فرد الشعر",
       "price": 18,
-      "imagePath": "images/DSP/10224U.png",
+      "image": [
+        {
+          "path": "images/DSP/10224U.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "مكواة تمليس وفرد الشعر الاحترافية العريضة هي جهاز تصفيف متطور مصمم خصيصاً لفرد وتمليس خصلات الشعر الطويلة والكثيفة بفعالية عالية، وتتميز بألواحها الممتدة التي تختصر وقت التصفيف.إليكِ المواصفات والخصائص التشغيلية الكاملة لهذا الموديل المتميز:⚙️ الأداء والقدرة الحراريةالقوة الكهربائية: تعمل بقوة متوازنة تتراوح بين 60 إلى 75 واط لتأمين تسخين مستقر وفعال.الجهد الكهربائي: متوافق مع نظام التشغيل المنزلي القياسي 220-240 فولت (50/60 هرتز).تقنية التسخين (PTC): مجهزة بنظام تسخين فوري ذكي يرفع حرارة الألواح لتصل إلى الحد الأقصى في غضون 100 إلى 130 ثانية فقط.نطاق مستويات التحكم (7 إعدادات): تمنحكِ الشاشة الرقمية 7 خيارات مختلفة لدرجات الحرارة لتعديل السخونة بدقة بناءً على حساسية ونوع خصلات شعركِ (من الإعدادات المنخفضة للشعر الناعم حتى 230 درجة مئوية للشعر الخشن والسميك جداً)"
@@ -2226,7 +2719,12 @@
       ],
       "categoryLabel": "مكواة تجعيد الشعر",
       "price": 16,
-      "imagePath": "images/DSP/20909U.png",
+      "image": [
+        {
+          "path": "images/DSP/20909U.png",
+          "order": 1
+        }
+      ],
       "packing": "16 / كرتون",
       "description": [
         "مكواة ومجعد الشعر النحيف الاحترافي دي اس بي (DSP Slim Professional Hair Curler - الموديل 20909U) هي أداة تصفيف متخصصة ومميزة من فئة السلسلة اللؤلؤية الخوخية (Peach Pearl Series)، مصممة لعمل تجعيدات لولبية صغيرة ومحددة بدقة فائقة \"Spiral / Corkscrew Curls\".إليكِ كافة المواصفات والخصائص الفنية والتشغيلية لهذا الموديل:⚙️ الأداء الفني والتحكم بالحرارةالقوة الكهربائية: تعمل بقوة 45 إلى 52 واط لتوفير تسخين مستقر واقتصادي للطاقة.تقنية التسخين الفوري (PTC): مجهزة بنظام تسخين سريع وذكي يرفع حرارة الأنبوب في غضون ثوانٍ لتوفير وقتكِ.نطاق درجات الحرارة: تتراوح الحرارة بدقة بين 150 إلى 180 درجة مئوية، وهي الدرجات المصممة لحماية خصلات الشعر من التلف والتقصف أثناء اللف الضيق."
@@ -2244,7 +2742,12 @@
       ],
       "categoryLabel": "ماكينة حلاقة نسائية",
       "price": 7,
-      "imagePath": "images/DSP/70164.png",
+      "image": [
+        {
+          "path": "images/DSP/70164.png",
+          "order": 1
+        }
+      ],
       "packing": "40 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2267,7 +2770,12 @@
       ],
       "categoryLabel": "فرشاة أسنان كهربائية",
       "price": 12,
-      "imagePath": "images/DSP/80188.png",
+      "image": [
+        {
+          "path": "images/DSP/80188.png",
+          "order": 1
+        }
+      ],
       "packing": "60 / كرتون",
       "description": [
         "جهد الدخل: تيار مستمر ٥ فولت ١ أمبير",
@@ -2292,7 +2800,12 @@
       ],
       "categoryLabel": "جهاز بخار للوجه",
       "price": 13,
-      "imagePath": "images/DSP/70235.png",
+      "image": [
+        {
+          "path": "images/DSP/70235.png",
+          "order": 1
+        }
+      ],
       "packing": "24 - 30 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2319,7 +2832,12 @@
       ],
       "categoryLabel": "مكواة فرد الشعر",
       "price": 11,
-      "imagePath": "images/DSP/10022.png",
+      "image": [
+        {
+          "path": "images/DSP/10022.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2345,7 +2863,12 @@
       ],
       "categoryLabel": "مكواة فرد الشعر",
       "price": 14,
-      "imagePath": "images/DSP/10029.png",
+      "image": [
+        {
+          "path": "images/DSP/10029.png",
+          "order": 1
+        }
+      ],
       "packing": "12 / كرتون",
       "description": [
         "الجهد: ١٠٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2369,7 +2892,12 @@
       ],
       "categoryLabel": "مكواة فرد الشعر",
       "price": 14,
-      "imagePath": "images/DSP/10731.png",
+      "image": [
+        {
+          "path": "images/DSP/10731.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2396,7 +2924,12 @@
       ],
       "categoryLabel": "مكواة فرد الشعر",
       "price": 12,
-      "imagePath": "images/DSP/10733.png",
+      "image": [
+        {
+          "path": "images/DSP/10733.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2424,7 +2957,12 @@
       ],
       "categoryLabel": "مكواة فرد الشعر",
       "price": 10.5,
-      "imagePath": "images/DSP/10751.png",
+      "image": [
+        {
+          "path": "images/DSP/10751.png",
+          "order": 1
+        }
+      ],
       "packing": "12 / كرتون",
       "description": [
         "الجهد: تيار متردد ١٠٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2450,7 +2988,12 @@
       ],
       "categoryLabel": "مكواة فرد الشعر",
       "price": 15.5,
-      "imagePath": "images/DSP/10210.png",
+      "image": [
+        {
+          "path": "images/DSP/10210.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "هي مكواة شعر (مملس/ليسر) احترافية وعالية الأداء، وتتميز بـ ألواح التيتانيوم العريضة المصممة لتوفير فرد سريع ومثالي للشعر الكثيف أو الخشن، فضلاً عن ملاءمتها لجلسات الكيراتين والبروتين.إليك كامل المواصفات الفنية لهذا الموديل بالتفصيل:أداء لوحات التصفيف والحرارةمادة الألواح: مصنعة من التيتانيوم (Titanium Plates) الاحترافي، الذي يتميز بتوزيع متساوٍ وممتاز للحرارة مع حماية الشعر من الهيشان والتلف.حجم الألواح: تأتي الألواح بأبعاد 120 × 25 مم، مما يجعلها أطول لتغطية خصلات شعر أكبر واختصار وقت التصفيف.مدى درجات الحرارة: تصل إلى درجات حرارة عالية جداً تبدأ من 480 درجة فهرنهايت حتى 750 درجة فهرنهايت (تظهر بالفهرنهايت على الشاشة).سرعة التسخين: مزودة بنظام تسخين سريع (PTC) يصل إلى أعلى درجة حرارة خلال 30 ثانية"
@@ -2468,7 +3011,12 @@
       ],
       "categoryLabel": "مكواة فرد الشعر",
       "price": 16.5,
-      "imagePath": "images/DSP/10244A.png",
+      "image": [
+        {
+          "path": "images/DSP/10244A.png",
+          "order": 1
+        }
+      ],
       "packing": "12 / كرتون",
       "description": [
         "الجهد: 220-240 فولت ~ 50/60 هرتز",
@@ -2486,7 +3034,7 @@
       ],
       "nameingAsProgram": "",
       "isActive": true,
-      "enHasQuantity": "nothing"
+      "enHasQuantity": "lot"
     },
     {
       "guid": "93525ef4-fe2d-44fc-b178-214043e3f2c4",
@@ -2497,7 +3045,12 @@
       ],
       "categoryLabel": "مكواة فرد الشعر",
       "price": 15.5,
-      "imagePath": "images/DSP/10273.png",
+      "image": [
+        {
+          "path": "images/DSP/10273.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2524,7 +3077,12 @@
       ],
       "categoryLabel": "مكواة فرد وتجعيد الشعر",
       "price": 15,
-      "imagePath": "images/DSP/10360.png",
+      "image": [
+        {
+          "path": "images/DSP/10360.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: 220-240 فولت ~ 50/60 هرتز",
@@ -2552,7 +3110,12 @@
       ],
       "categoryLabel": "مكواة فرد الشعر",
       "price": 9.5,
-      "imagePath": "images/DSP/10380.png",
+      "image": [
+        {
+          "path": "images/DSP/10380.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "إن مكواة شعر (ليسر) DSP 10380 هي أداة تصفيف متطورة مخصصة لفرد الشعر وحمايته، وتتميز باعتمادها على تقنية البلازما المتطورة لحماية الكيراتين الطبيعي في الشعر ومنع الهيشان أثناء التمليس.إليك كامل مواصفاتها الفنية الفنية بالتفصيل:أداء لوحات التصفيف والحرارةنوع الألواح: ألواح مصنوعة من الألومنيوم المغطى بطبقة سيراميك لحماية كاملة للشعر التالف أو المجهد وتقليل الاحتكاك.نظام التسخين: تعتمد على رقاقة PTC للتسخين السريع، مما يضمن تثبيت درجة الحرارة آلياً وتوزيعها بشكل متساوٍ الموفر للطاقة.درجات الحرارة: شاشة LCD رقمية تعرض 6 إعدادات حرارة مرنة تبدأ من 450°F وتصل إلى 950°F كحد أقصى (لتناسب الشعر الخفيف وحتى الخشن جداً"
@@ -2570,7 +3133,12 @@
       ],
       "categoryLabel": "مكواة فرد الشعر",
       "price": 9.5,
-      "imagePath": "images/DSP/10444.png",
+      "image": [
+        {
+          "path": "images/DSP/10444.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2600,7 +3168,12 @@
       ],
       "categoryLabel": "مكواة تجعيد الشعر",
       "price": 10,
-      "imagePath": "images/DSP/20174.png",
+      "image": [
+        {
+          "path": "images/DSP/20174.png",
+          "order": 1
+        }
+      ],
       "packing": "20 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2626,7 +3199,12 @@
       ],
       "categoryLabel": "مكواة تجعيد الشعر",
       "price": 10,
-      "imagePath": "images/DSP/20245.png",
+      "image": [
+        {
+          "path": "images/DSP/20245.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: 220-240 فولت ~ 50/60 هرتز",
@@ -2655,7 +3233,12 @@
       ],
       "categoryLabel": "مجموعة عناية شخصية",
       "price": 11,
-      "imagePath": "images/DSP/70602.png",
+      "image": [
+        {
+          "path": "images/DSP/70602.png",
+          "order": 1
+        }
+      ],
       "packing": "80 / كرتون",
       "description": [
         "مجموعة العناية الشخصية النسائية المتكاملة DSP 70602 (5 في 1) هي حقيبة عناية متكاملة مصممة لتلبية كافة احتياجات الحلاقة، التشذيب، والعناية بالوجه والجسم بدقة ونعومة.المواصفات والوظائف الرئيسية للجهاز (حسب):5 رؤوس احترافية متنوعة: تشمل رأس الحلاقة الأساسي، رأس التشذيب، رأس مخصص للحواجب، رأس دائري للمناطق الحساسة، ورأس تردد للوجه والجسم.مقاومة للماء بمعيار IPX5: تتيح لكِ إمكانية استخدامها أثناء الاستحمام وتنظيفها تحت الماء بسهولة.شحن سريع Type-C: يتم شحن البطارية بالكامل في غضون ساعة واحدة لتوفر 30 دقيقة من الاستخدام اللاسلكي، مع ميزة التشغيل المباشر أثناء توصيل الشاحن.أمشاط تحديد دقيقة: تأتي مع 4 أمشاط لتحديد طول الشعر بدقة تتراوح بين 0 إلى 5 مم.شفرات فولاذ كربوني: تعمل بمحرك قوي يبلغ 7500 دورة في الدقيقة لمنحكِ ملمساً ناعماً بدون ألم أو تهيج للبشرة.حماية وأمان: مزودة بنظام حماية من زيادة الشحن وقفل أمان مدمج"
@@ -2673,7 +3256,12 @@
       ],
       "categoryLabel": "مجفف وفرشاة شعر",
       "price": 65,
-      "imagePath": "images/DSP/11177.png",
+      "image": [
+        {
+          "path": "images/DSP/11177.png",
+          "order": 1
+        }
+      ],
       "packing": "6 / كرتون",
       "description": [
         "الطاقة: ١٣٥٠-١٦٥٠ واط",
@@ -2713,7 +3301,12 @@
       ],
       "categoryLabel": "فرشاة شعر كهربائية",
       "price": 8,
-      "imagePath": "images/DSP/11013.png",
+      "image": [
+        {
+          "path": "images/DSP/11013.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2738,7 +3331,12 @@
       ],
       "categoryLabel": "مجفف وفرشاة شعر",
       "price": 23,
-      "imagePath": "images/DSP/80200.png",
+      "image": [
+        {
+          "path": "images/DSP/80200.png",
+          "order": 1
+        }
+      ],
       "packing": "12 / كرتون",
       "description": [
         "جهاز تصفيف وتنعيم الشعر المتطور DSP 80200 هو جهاز (2 في 1) مبتكر يجمع بين وظيفة مجفف الشعر والفرشاة الكهربائية لتجفيف الشعر وتصفيفه وفلترته ليمنح خصلاتكِ نعومة وكثافة مثالية في آن واحد.المواصفات والوظائف الرئيسية للجهاز (حسب):قوة وأداء جبار: يعمل باستطاعة تصل إلى 1200 واط (إلى 1300 واط) ليوفر تدفق هواء ساخن قوي يضمن تصفيفاً فائق السرعة وتجفيفاً فعالاً.سرعة دوران عالية: يتميز بمحرك قوي تصل سرعة دورانه إلى 18,000 دورة في الدقيقة (RPM) لأداء تصفيف احترافي وسريع.تقنية حماية الشعر: الأسطوانة مدعمة بطلاء السيراميك مع نظام متطور لتوزيع الحرارة بالتساوي، مما يحمي بصيلات الشعر من التلف أو الحرق ويمنحه لمعاناً صحياً وطبيعياً.تصميم بيضاوي ذكي: يساعد تصميم الفرشاة البيضاوي على خلق حجم وكثافة (Volumizing) من الجذور مع أطراف ناعمة ولامعة وخالية من التشابك والتعقيد."
@@ -2756,7 +3354,12 @@
       ],
       "categoryLabel": "مقشر القدمين الكهربائي",
       "price": 7.65,
-      "imagePath": "images/DSP/70342.png",
+      "image": [
+        {
+          "path": "images/DSP/70342.png",
+          "order": 1
+        }
+      ],
       "packing": "60 / كرتون",
       "description": [
         "جهاز مبرد ومقشر القدمين الكهربائي الاحترافي DSP 70342 هو أداة متطورة لإزالة الكالس والجلد الميت الجاف والمتشقق بفعالية، ليمنح قدميكِ نعومة فائقة وصحية في المنزل.المواصفات والوظائف الرئيسية للجهاز (حسب):أداء توربو قوي: يعمل بمحرك قوي للغاية تصل سرعة دورانه إلى 10,000 دورة في الدقيقة (RPM) للتعامل مع أقسى طبقات الجلد الميت بكفاءة.رؤوس دوارة متعددة (Dual/Triple Heads): يأتي مع رؤوس طحن احترافية قابلة للتبديل (تتراوح بين الناعمة والخشنة) لتخصيص تجربة الباديكير حسب حاجة قدميكِ.إعدادان للسرعة (2 Speeds): يوفر سرعتين مختلفتين يمكن التحكم بهما عبر مفتاح ضغط ليتناسب مع الجلد الحساس أو المناطق شديدة الخشونة.مقاوم للماء بمعيار IPX6: تصميم محمي بالكامل من الماء، مما يتيح لكِ إمكانية استخدامه على أقدام جافة أو رطبة وتنظيفه تحت الماء الجاري بسهولة وأمان."
@@ -2774,7 +3377,12 @@
       ],
       "categoryLabel": "مزيل شعر الوجه",
       "price": 6.75,
-      "imagePath": "images/DSP/70357.png",
+      "image": [
+        {
+          "path": "images/DSP/70357.png",
+          "order": 1
+        }
+      ],
       "packing": "60 / كرتون",
       "description": [
         "جهد الدخل: تيار مستمر ٥ فولت ١ أمبير",
@@ -2799,7 +3407,12 @@
       ],
       "categoryLabel": "ماكينة حلاقة للرجال",
       "price": 14.5,
-      "imagePath": "images/DSP/90407.png",
+      "image": [
+        {
+          "path": "images/DSP/90407.png",
+          "order": 1
+        }
+      ],
       "packing": "20 / كرتون",
       "description": [
         "ماكينة حلاقة وتحديد الشعر الاحترافية للرجال DSP 90407 هي أداة حلاقة وتنعيم متطورة ومصممة بدقة عالية للاستخدام الشخصي والصالونات لتوفير تجربة حلاقة سلسلة بدون ألم.المواصفات والوظائف الرئيسية للجهاز (حسب):شفرات فائقة الجودة: تأتي بشفرات حادة ومقاومة للصدأ، توفر قصاً دقيقاً للغاية يتراوح بين 0.5 إلى 19 مم مع ذراع جانبي لتعديل الارتفاع.تحكم ذكي بالسرعة: تدعم مستويات سرعة قابلة للتعديل بين 5200 و 6000 دورة في الدقيقة (RPM) لتناسب كثافة الشعر ونوع الحلاقة.بطارية ليثيوم ممتازة: مزودة ببطارية ضخمة بسعة 2000 مللي أمبير، تمنحك تشغيلاً لاسلكياً طويلاً يتراوح بين 180 إلى 240 دقيقة (من 3 إلى 4 ساعات عمل) بعد شحنها لمدة 3 ساعات.قوة وثبات: تعمل باستطاعة 8 واط بمحرك فئة 390PA لضمان عدم سحب أو شد الشعر أثناء الاستخدام.دعم التشغيل المباشر: تدعم ميزة \"التوصيل والتشغيل\" (Plug and play) لاستخدام الماكينة مباشرة عبر السلك عند نفاد الشحن المفاجئ."
@@ -2817,7 +3430,12 @@
       ],
       "categoryLabel": "مزيل شعر الوجه",
       "price": 4.25,
-      "imagePath": "images/DSP/70081.png",
+      "image": [
+        {
+          "path": "images/DSP/70081.png",
+          "order": 1
+        }
+      ],
       "packing": "100 / كرتون",
       "description": [
         "شاحن USB: ٥ فولت ١ أمبير",
@@ -2841,7 +3459,12 @@
       ],
       "categoryLabel": "ماكينة تشذيب الحواجب",
       "price": 4.25,
-      "imagePath": "images/DSP/70118.png",
+      "image": [
+        {
+          "path": "images/DSP/70118.png",
+          "order": 1
+        }
+      ],
       "packing": "100 / كرتون",
       "description": [
         "شحن USB تيار مستمر ٥ فولت ١ أمبير",
@@ -2866,7 +3489,12 @@
       ],
       "categoryLabel": "ماكينة حلاقة للرجال",
       "price": 20,
-      "imagePath": "images/DSP/90481.png",
+      "image": [
+        {
+          "path": "images/DSP/90481.png",
+          "order": 1
+        }
+      ],
       "packing": "20 / كرتون",
       "description": [
         "البطارية: بطارية ليثيوم",
@@ -2893,7 +3521,12 @@
       ],
       "categoryLabel": "مجموعة عناية شخصية",
       "price": 15,
-      "imagePath": "images/DSP/80011.png",
+      "image": [
+        {
+          "path": "images/DSP/80011.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "الجهد: ٢٢٠-٢٤٠ فولت ~ ٥٠/٦٠ هرتز",
@@ -2917,7 +3550,12 @@
       ],
       "categoryLabel": "ماكينة حلاقة للجسم",
       "price": 8,
-      "imagePath": "images/DSP/70538.png",
+      "image": [
+        {
+          "path": "images/DSP/70538.png",
+          "order": 1
+        }
+      ],
       "packing": "80 / كرتون",
       "description": [
         "الجهد: تيار مستمر ٥ فولت ١ أمبير",
@@ -2940,7 +3578,12 @@
       ],
       "categoryLabel": "مجموعة عناية شخصية",
       "price": 17,
-      "imagePath": "images/DSP/80155.png",
+      "image": [
+        {
+          "path": "images/DSP/80155.png",
+          "order": 1
+        }
+      ],
       "packing": "24 / كرتون",
       "description": [
         "شحن USB: تيار مستمر ٥ فولت ١ أمبير",
@@ -2963,7 +3606,12 @@
       ],
       "categoryLabel": "ماكينة حلاقة نسائية",
       "price": 7.25,
-      "imagePath": "images/DSP/70570.png",
+      "image": [
+        {
+          "path": "images/DSP/70570.png",
+          "order": 1
+        }
+      ],
       "packing": "100 / كرتون",
       "description": [
         "٣.٢ فولت",
@@ -2987,7 +3635,12 @@
       ],
       "categoryLabel": "مجموعة عناية شخصية",
       "price": 9.5,
-      "imagePath": "images/DSP/70212.png",
+      "image": [
+        {
+          "path": "images/DSP/70212.png",
+          "order": 1
+        }
+      ],
       "packing": "40 / كرتون",
       "description": [
         "المدخل: تيار مستمر ٥ فولت ١ أمبير",
@@ -3015,7 +3668,12 @@
       ],
       "categoryLabel": "ماكينة حلاقة نسائية",
       "price": 13.5,
-      "imagePath": "images/DSP/80159.png",
+      "image": [
+        {
+          "path": "images/DSP/80159.png",
+          "order": 1
+        }
+      ],
       "packing": "40 / كرتون",
       "description": [
         "مكنة حلاقة نسائي dsp 80159 ت/40/"
@@ -3033,7 +3691,12 @@
       ],
       "categoryLabel": "ماكينة حلاقة نسائية",
       "price": 10,
-      "imagePath": "images/DSP/91900.png",
+      "image": [
+        {
+          "path": "images/DSP/91900.png",
+          "order": 1
+        }
+      ],
       "packing": "40 / كرتون",
       "description": [
         "مكنة حلاقة 91900 ت40"
@@ -3051,7 +3714,12 @@
       ],
       "categoryLabel": "ماكينة حلاقة نسائية",
       "price": 14.5,
-      "imagePath": "images/DSP/91526.png",
+      "image": [
+        {
+          "path": "images/DSP/91526.png",
+          "order": 1
+        }
+      ],
       "packing": "20 / كرتون",
       "description": [
         "مكنة حلاقة dsp 91526 ت/20/"

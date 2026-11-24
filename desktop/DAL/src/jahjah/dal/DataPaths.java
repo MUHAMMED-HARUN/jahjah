@@ -22,5 +22,8 @@ public final class DataPaths {
 
     public Path imagesDir() { return root.resolve("images"); }
 
+    /** إعدادات الواجهة (يقرؤها index.html). */
+    public Path config() { return root.resolve("config.json"); }
+
     public Path brandFile(String fileName) { return dataDir().resolve(fileName); }
 }

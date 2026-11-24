@@ -4,12 +4,16 @@ import jahjah.dal.ImageRepository;
 import jahjah.shared.entities.Brand;
 import jahjah.shared.entities.BrandCatalog;
 import jahjah.shared.entities.Category;
+import jahjah.shared.entities.ImageInput;
 import jahjah.shared.entities.Product;
+import jahjah.shared.entities.ProductImage;
 import jahjah.shared.exceptions.BusinessException;
 
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Comparator;
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Objects;
@@ -47,43 +51,125 @@ public class ProductService {
         return images.resolve(imagePath);
     }
 
-    /** add item */
-    public Product add(Product input, String brandFile, Path imageSource) {
+    /** add item — images: الصور الجديدة بالترتيب المطلوب (يمكن أن تكون فارغة). */
+    public Product add(Product input, String brandFile, List<ImageInput> imageList) {
         BrandCatalog catalog = store.catalog(brandFile);
         Product p = input.copy();
         p.setGuid(UUID.randomUUID().toString());
         p.setBrandFile(brandFile);
         p.setLegacyCategory(null);
+        p.setImage(List.of());
         normalize(p);
         validate(p, null);
 
-        if (imageSource != null) {
-            p.setImagePath(images.save(imageSource, catalog.getBrand().getImageFolder(), p.getGuid()));
-        }
+        List<String> removed = applyImages(p, List.of(), imageList, catalog.getBrand());
         catalog.getProducts().add(p);
         store.saveBrand(brandFile);
+        deleteUnreferenced(removed);
         return p.copy();
     }
 
-    /** update (الماركة ثابتة؛ الصورة تُستبدل فقط إن اختيرت صورة جديدة). */
-    public Product update(Product input, Path imageSource) {
+    /**
+     * update (الماركة ثابتة).
+     * imageList = القائمة النهائية للصور بالترتيب، أو null لإبقاء الصور كما هي.
+     */
+    public Product update(Product input, List<ImageInput> imageList) {
         Product existing = store.product(input.getGuid());
         Product p = input.copy();
         p.setBrandFile(existing.getBrandFile());
-        p.setImagePath(existing.getImagePath());
+        p.setImage(existing.getImage());
         p.setLegacyCategory(p.getCategory().isEmpty() ? existing.getLegacyCategory() : null);
         normalize(p);
         validate(p, existing.getGuid());
 
-        if (imageSource != null) {
-            Brand brand = store.catalog(existing.getBrandFile()).getBrand();
-            p.setImagePath(images.save(imageSource, brand.getImageFolder(), p.getGuid()));
-        }
+        List<String> removed = imageList == null ? List.of()
+                : applyImages(p, existing.getImage(), imageList, store.catalog(existing.getBrandFile()).getBrand());
 
         List<Product> list = store.catalog(existing.getBrandFile()).getProducts();
         list.set(list.indexOf(existing), p);
         store.saveBrand(existing.getBrandFile());
+        deleteUnreferenced(removed);
         return p.copy();
+    }
+
+    /** الصور مرتبة حسب order. */
+    public List<ProductImage> getImages(String guid) {
+        return sortedImages(store.product(guid));
+    }
+
+    /**
+     * يطبّق القائمة النهائية للصور على المنتج: يتحقق منها، ينسخ الجديدة، ويعيد ترقيم order من 1.
+     * يعيد مسارات الصور التي أُزيلت من المنتج (تُحذف ملفاتها بعد الحفظ).
+     */
+    private List<String> applyImages(Product p, List<ProductImage> current, List<ImageInput> inputs, Brand brand) {
+        List<ImageInput> list = inputs == null ? List.of() : inputs;
+        Set<String> currentPaths = new LinkedHashSet<>();
+        for (ProductImage i : current) currentPaths.add(i.getPath());
+
+        // التحقق المنطقي قبل أي كتابة
+        Set<String> seenExisting = new HashSet<>();
+        Set<Path> seenNew = new HashSet<>();
+        for (ImageInput in : list) {
+            if (in == null || (in.existingPath() == null) == (in.newSource() == null)) {
+                throw new BusinessException("عنصر صورة غير صالح.");
+            }
+            if (in.isNew()) {
+                if (!seenNew.add(in.newSource().toAbsolutePath().normalize())) {
+                    throw new BusinessException("الصورة " + in.newSource().getFileName() + " مضافة أكثر من مرة.");
+                }
+            } else {
+                if (!currentPaths.contains(in.existingPath())) {
+                    throw new BusinessException("الصورة " + in.existingPath() + " لا تخص هذا المنتج.");
+                }
+                if (!seenExisting.add(in.existingPath())) {
+                    throw new BusinessException("الصورة " + in.existingPath() + " مكررة في القائمة.");
+                }
+            }
+        }
+
+        // نسخ الجديدة وبناء القائمة بالترتيب
+        Set<String> usedNames = new HashSet<>();
+        List<ProductImage> result = new ArrayList<>();
+        for (ImageInput in : list) {
+            String path = in.isNew()
+                    ? images.save(in.newSource(), brand.getImageFolder(), freeBaseName(brand.getImageFolder(), p.getGuid(), usedNames))
+                    : in.existingPath();
+            result.add(new ProductImage(path, result.size() + 1));
+        }
+        p.setImage(result);
+
+        List<String> removed = new ArrayList<>(currentPaths);
+        removed.removeAll(seenExisting);
+        return removed;
+    }
+
+    /** guid، ثم guid_2، guid_3 ... أول اسم غير مستخدم في المجلد. */
+    private String freeBaseName(String brandFolder, String guid, Set<String> usedNames) {
+        for (int n = 1; ; n++) {
+            String base = n == 1 ? guid : guid + "_" + n;
+            if (!usedNames.contains(base) && !images.baseNameExists(brandFolder, base)) {
+                usedNames.add(base);
+                return base;
+            }
+        }
+    }
+
+    /** يحذف ملفات الصور المُزالة إن لم يعد أي منتج يستخدمها. */
+    private void deleteUnreferenced(List<String> removed) {
+        for (String path : removed) {
+            boolean used = false;
+            for (Product other : store.allProducts()) {
+                for (ProductImage i : other.getImage()) if (path.equals(i.getPath())) used = true;
+            }
+            if (!used) images.delete(path);
+        }
+    }
+
+    private static List<ProductImage> sortedImages(Product p) {
+        List<ProductImage> list = new ArrayList<>();
+        for (ProductImage i : p.getImage()) list.add(i.copy());
+        list.sort(Comparator.comparingInt(ProductImage::getOrder));
+        return list;
     }
 
     /** active: تفعيل/إيقاف عنصر أو عدة عناصر. يعيد عدد العناصر التي تغيّرت. */

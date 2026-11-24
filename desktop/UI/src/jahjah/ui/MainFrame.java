@@ -19,9 +19,12 @@ class MainFrame extends JFrame {
         JTabbedPane tabs = new JTabbedPane();
         tabs.addTab("المنتجات", products);
         tabs.addTab("التصنيفات", categories);
+        SettingsPanel settings = new SettingsPanel(services);
+        tabs.addTab("الإعدادات", settings);
         tabs.addChangeListener(e -> {
             if (tabs.getSelectedComponent() == products) products.reload();
-            else categories.reload();
+            else if (tabs.getSelectedComponent() == categories) categories.reload();
+            else settings.reload();
         });
         setContentPane(tabs);
 

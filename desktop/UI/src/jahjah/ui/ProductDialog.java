@@ -3,6 +3,7 @@ package jahjah.ui;
 import jahjah.bal.Services;
 import jahjah.shared.entities.Brand;
 import jahjah.shared.entities.Category;
+import jahjah.shared.entities.ImageInput;
 import jahjah.shared.entities.Product;
 import jahjah.shared.enums.EnHasQuantity;
 
@@ -20,14 +21,19 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.ScrollPaneConstants;
+import javax.swing.Scrollable;
 import javax.swing.SwingUtilities;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.BorderLayout;
 import java.awt.Component;
+import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.GraphicsEnvironment;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
+import java.awt.Rectangle;
 import java.awt.Window;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -38,7 +44,9 @@ class ProductDialog extends JDialog {
     private final Services services;
     private final Product existing;
     private boolean saved;
-    private Path imageSource;
+    /** معاينة الصور داخل النموذج (عرض فقط)؛ التعديل في ImageManagerDialog. */
+    private final ImageManager imagesPreview;
+    private final JButton manageImages = new JButton("إدارة الصور...");
 
     private final JComboBox<Brand> brand = new JComboBox<>();
     private final JTextField sku = new JTextField(28);
@@ -50,7 +58,6 @@ class ProductDialog extends JDialog {
     private final JCheckBox isActive = new JCheckBox("فعال", true);
     private final JComboBox<EnHasQuantity> quantity = new JComboBox<>(EnHasQuantity.values());
     private final JList<Category> categories = new JList<>();
-    private final JLabel imageLabel = new JLabel("بدون صورة");
 
     static boolean showAdd(Component parent, Services services, Brand preset) {
         ProductDialog d = new ProductDialog(SwingUtilities.getWindowAncestor(parent), services, null, preset);
@@ -84,12 +91,15 @@ class ProductDialog extends JDialog {
         description.setLineWrap(true);
         description.setWrapStyleWord(true);
 
-        JButton chooseImage = new JButton("اختيار صورة...");
-        chooseImage.addActionListener(e -> chooseImage());
-        JPanel imageRow = new JPanel(new FlowLayout(FlowLayout.RIGHT, 0, 0));
-        imageRow.add(chooseImage);
-        imageRow.add(new JLabel("  "));
-        imageRow.add(imageLabel);
+        imagesPreview = new ImageManager(services.products()::resolveImage, false);
+        fixHeight(imagesPreview, 380);
+        manageImages.addActionListener(e -> onManageImages());
+        JPanel imagesBox = new JPanel(new BorderLayout(4, 4));
+        JPanel imagesBar = new JPanel(new FlowLayout(FlowLayout.RIGHT, 0, 0));
+        imagesBar.add(manageImages);
+        imagesBox.add(imagesBar, BorderLayout.NORTH);
+        imagesBox.add(imagesPreview, BorderLayout.CENTER);
+        updateImagesButton();
 
         JPanel form = new JPanel(new GridBagLayout());
         form.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
@@ -100,11 +110,21 @@ class ProductDialog extends JDialog {
         row = addRow(form, row, "الرمز (SKU)", sku);
         row = addRow(form, row, "السعر *", price);
         row = addRow(form, row, "التعبئة في الطرد *", packing);
-        row = addRow(form, row, "التصنيفات (أوراق)", new JScrollPane(categories));
-        row = addRow(form, row, "الوصف (سطر لكل مواصفة)", new JScrollPane(description));
+        row = addRow(form, row, "التصنيفات (أوراق)", fixHeight(new JScrollPane(categories), 160));
+        JScrollPane descScroll = new JScrollPane(description,
+                ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        row = addRow(form, row, "الوصف (سطر لكل مواصفة)", fixHeight(descScroll, 200));
         row = addRow(form, row, "التوفر", quantity);
         row = addRow(form, row, "الحالة", isActive);
-        addRow(form, row, "الصورة", imageRow);
+        addRow(form, row, "الصور", imagesBox);
+
+        // النموذج داخل منطقة تمرير عمودي حتى لا يتجاوز الشاشة؛ العرض يتبع عرض النافذة
+        JPanel formHolder = new WidthTrackingPanel();
+        formHolder.add(form, BorderLayout.NORTH);
+        JScrollPane formScroll = new JScrollPane(formHolder,
+                ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        formScroll.setBorder(BorderFactory.createEmptyBorder());
+        formScroll.getVerticalScrollBar().setUnitIncrement(18);
 
         JButton ok = new JButton("حفظ");
         JButton cancel = new JButton("إلغاء");
@@ -115,7 +135,7 @@ class ProductDialog extends JDialog {
         buttons.add(cancel);
 
         getContentPane().setLayout(new BorderLayout());
-        getContentPane().add(form, BorderLayout.CENTER);
+        getContentPane().add(formScroll, BorderLayout.CENTER);
         getContentPane().add(buttons, BorderLayout.SOUTH);
         getRootPane().setDefaultButton(ok);
 
@@ -124,7 +144,46 @@ class ProductDialog extends JDialog {
 
         applyComponentOrientation(Ui.RTL);
         pack();
+        // لا يتجاوز الشاشة؛ الباقي يُعرض بالتمرير
+        Rectangle screen = GraphicsEnvironment.getLocalGraphicsEnvironment().getMaximumWindowBounds();
+        setSize(Math.min(getWidth() + 24, screen.width - 40), Math.min(getHeight(), screen.height - 40));
+        setMinimumSize(new Dimension(560, 400));
+        setResizable(true);
         setLocationRelativeTo(owner);
+    }
+
+    private void onManageImages() {
+        List<ImageInput> result = ImageManagerDialog.edit(this, name.getText(),
+                services.products()::resolveImage, imagesPreview.getInputs());
+        if (result == null) return;
+        imagesPreview.setInputs(result);
+        updateImagesButton();
+    }
+
+    private void updateImagesButton() {
+        manageImages.setText("إدارة الصور... (" + imagesPreview.count() + ")");
+    }
+
+    /** ارتفاع ثابت (مفضل + أدنى) حتى لا ينكمش الحقل إلى سطر واحد. */
+    private static <T extends JComponent> T fixHeight(T c, int height) {
+        c.setPreferredSize(new Dimension(460, height));
+        c.setMinimumSize(new Dimension(200, height));
+        return c;
+    }
+
+    /** لوحة داخل JScrollPane تأخذ عرض النافذة (تمرير عمودي فقط). */
+    private static final class WidthTrackingPanel extends JPanel implements Scrollable {
+        WidthTrackingPanel() { super(new BorderLayout()); }
+
+        @Override public Dimension getPreferredScrollableViewportSize() { return getPreferredSize(); }
+
+        @Override public int getScrollableUnitIncrement(Rectangle r, int o, int d) { return 18; }
+
+        @Override public int getScrollableBlockIncrement(Rectangle r, int o, int d) { return Math.max(18, r.height - 40); }
+
+        @Override public boolean getScrollableTracksViewportWidth() { return true; }
+
+        @Override public boolean getScrollableTracksViewportHeight() { return false; }
     }
 
     private static int addRow(JPanel form, int row, String label, JComponent field) {
@@ -155,27 +214,14 @@ class ProductDialog extends JDialog {
         List<Integer> idx = new ArrayList<>();
         for (int i = 0; i < leaves.size(); i++) if (p.getCategory().contains(leaves.get(i).getCategoryId())) idx.add(i);
         categories.setSelectedIndices(idx.stream().mapToInt(Integer::intValue).toArray());
-        imageLabel.setText(p.getImagePath() == null ? "بدون صورة" : p.getImagePath());
+        imagesPreview.setImages(p.getImage());
+        updateImagesButton();
     }
 
     private void selectBrand(String fileName) {
         for (int i = 0; i < brand.getItemCount(); i++) {
             if (brand.getItemAt(i).getFileName().equals(fileName)) brand.setSelectedIndex(i);
         }
-    }
-
-    private void chooseImage() {
-        JFileChooser chooser = new JFileChooser();
-        chooser.setFileFilter(new FileNameExtensionFilter("صور", "png", "jpg", "jpeg", "webp", "gif"));
-        if (chooser.showOpenDialog(this) != JFileChooser.APPROVE_OPTION) return;
-        Path p = chooser.getSelectedFile().toPath();
-        String err = Ui.imageFile(p);
-        if (err != null) {
-            Ui.error(this, err);
-            return;
-        }
-        imageSource = p;
-        imageLabel.setText(p.getFileName().toString());
     }
 
     /** Data validation ثم استدعاء BAL. */
@@ -188,7 +234,8 @@ class ProductDialog extends JDialog {
         addIfError(errors, Ui.required(packing.getText(), "التعبئة في الطرد", 60));
         Double priceValue = Ui.nonNegativeNumber(price.getText());
         if (priceValue == null) errors.add("السعر يجب أن يكون رقماً أكبر من أو يساوي صفر.");
-        addIfError(errors, Ui.imageFile(imageSource));
+        List<ImageInput> images = imagesPreview.getInputs();
+        for (ImageInput in : images) if (in.isNew()) addIfError(errors, Ui.imageFile(in.newSource()));
         List<String> lines = new ArrayList<>();
         for (String line : description.getText().split("\\R")) if (!line.isBlank()) lines.add(line.trim());
 
@@ -212,8 +259,8 @@ class ProductDialog extends JDialog {
 
         Brand b = (Brand) brand.getSelectedItem();
         boolean ok = Ui.run(this, () -> {
-            if (existing == null) services.products().add(p, b.getFileName(), imageSource);
-            else services.products().update(p, imageSource);
+            if (existing == null) services.products().add(p, b.getFileName(), images);
+            else services.products().update(p, images);
         });
         if (ok) {
             saved = true;
