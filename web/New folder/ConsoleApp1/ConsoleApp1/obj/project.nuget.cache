@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "e8R5RyR3cVA=",
+  "success": true,
+  "projectFilePath": "D:\\web\\New folder\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\closedxml\\0.105.1\\closedxml.0.105.1.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\closedxml.parser\\2.0.0\\closedxml.parser.2.0.0.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\documentformat.openxml\\3.5.1\\documentformat.openxml.3.5.1.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\documentformat.openxml.framework\\3.5.1\\documentformat.openxml.framework.3.5.1.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\gm.documents\\1.0.2\\gm.documents.1.0.2.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\gm.exceptions\\1.2.0\\gm.exceptions.1.2.0.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\microsoft.extensions.options\\10.0.0\\microsoft.extensions.options.10.0.0.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.0\\microsoft.extensions.primitives.10.0.0.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\rbush.signed\\4.0.0\\rbush.signed.4.0.0.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
+    "C:\\Users\\مستخدم 1 ديل\\.nuget\\packages\\system.io.packaging\\10.0.2\\system.io.packaging.10.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

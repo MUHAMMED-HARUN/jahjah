@@ -1,0 +1,481 @@
+{
+  "brand": {
+    "id": "brand-DCEL",
+    "name": "DCEL"
+  },
+  "products": [
+    {
+      "guid": "50becfda-88e3-410d-9c9a-19f55d874476",
+      "sku": "",
+      "name": "فرن 35 ليتر ديسل",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 29,
+      "imagePath": "images/DCEL/50becfda-88e3-410d-9c9a-19f55d874476.png",
+      "packing": "1",
+      "description": [
+        "صينية وحدة"
+      ]
+    },
+    {
+      "guid": "71cfee6a-a698-4800-aee7-e02bb2d989b2",
+      "sku": "",
+      "name": "فرن 45 ليتر ديسل",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 40,
+      "imagePath": "images/DCEL/71cfee6a-a698-4800-aee7-e02bb2d989b2.png",
+      "packing": "1",
+      "description": [
+        "صينية وحدة"
+      ]
+    },
+    {
+      "guid": "9396c58e-91cc-4332-9a88-315c88dca0d9",
+      "sku": "",
+      "name": "فرن 45 ليتر ديسل",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 43,
+      "imagePath": "images/DCEL/9396c58e-91cc-4332-9a88-315c88dca0d9.png",
+      "packing": "1",
+      "description": [
+        "تيربو مع 2 صينية"
+      ]
+    },
+    {
+      "guid": "ffd2a96a-679c-41b4-ba53-640d8310fb7f",
+      "sku": "",
+      "name": "فرن 70 ليتر ديسل",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 58,
+      "imagePath": null,
+      "packing": "1",
+      "description": [
+        "صينية عدد 2+تيربو +لمبة +4مفاتيح"
+      ]
+    },
+    {
+      "guid": "4386a0db-6565-4db5-8150-0e5be7c903d2",
+      "sku": "",
+      "name": "فرن 45 جنرال",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 43,
+      "imagePath": "images/DCEL/4386a0db-6565-4db5-8150-0e5be7c903d2.png",
+      "packing": "1",
+      "description": [
+        "صينية وحدة  + تيربو + لمبة"
+      ]
+    },
+    {
+      "guid": "768c4b6b-227b-4522-83ce-0586cacaa5d6",
+      "sku": "",
+      "name": "فرن 70 ليتر جنرال",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 58,
+      "imagePath": "images/DCEL/768c4b6b-227b-4522-83ce-0586cacaa5d6.png",
+      "packing": "1",
+      "description": [
+        "صينية وحدة+تيربو +دبل بلور+لمبة +شواية فروج+4مفاتيح"
+      ]
+    },
+    {
+      "guid": "7a9d7138-b255-4327-818a-733a2ed0bee9",
+      "sku": "",
+      "name": "فرن 5 رؤس ديسل شاشة ابيض s9",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 285,
+      "imagePath": null,
+      "packing": "1",
+      "description": []
+    },
+    {
+      "guid": "71a88da8-b6f1-4346-9d01-055277a8fea9",
+      "sku": "",
+      "name": "فرن 5 رؤس ديسل ابيض",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 280,
+      "imagePath": "images/DCEL/71a88da8-b6f1-4346-9d01-055277a8fea9.png",
+      "packing": "1",
+      "description": []
+    },
+    {
+      "guid": "829dcacf-673a-4c5e-a75e-30f662dfa673",
+      "sku": "",
+      "name": "فرن 5 رؤس ديسل ابيض راسين تيربو",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 285,
+      "imagePath": "images/DCEL/829dcacf-673a-4c5e-a75e-30f662dfa673.png",
+      "packing": "1",
+      "description": []
+    },
+    {
+      "guid": "47f6408f-8765-4983-a10d-3a4627246407",
+      "sku": "",
+      "name": "فرن 5 رؤس ديسل ابيض إيطالي نحاس مع امان",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 330,
+      "imagePath": "images/DCEL/47f6408f-8765-4983-a10d-3a4627246407.png",
+      "packing": "1",
+      "description": [
+        "مع امان و شاشة رقمية"
+      ]
+    },
+    {
+      "guid": "aa93701a-971c-4850-8538-daa21af5cf4f",
+      "sku": "",
+      "name": "فرن 5 رؤس ديسل اسود إيطالي نحاس مع امان",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 330,
+      "imagePath": "images/DCEL/aa93701a-971c-4850-8538-daa21af5cf4f.png",
+      "packing": "1",
+      "description": [
+        "مع امان و شاشة رقمية"
+      ]
+    },
+    {
+      "guid": "325bbabd-19ff-4d13-94d0-ccbdfc1ec680",
+      "sku": "",
+      "name": "فرن 5 رؤس ديسل فضي إيطالي نحاس مع امان",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 330,
+      "imagePath": "images/DCEL/325bbabd-19ff-4d13-94d0-ccbdfc1ec680.png",
+      "packing": "1",
+      "description": [
+        "مع امان و شاشة رقمية"
+      ]
+    },
+    {
+      "guid": "e1d06487-3609-4be4-9236-6fe00a22ffd6",
+      "sku": "",
+      "name": "فرن 5 رؤس ديسل ستالس إيطالي نحاس مع امان",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 340,
+      "imagePath": "images/DCEL/e1d06487-3609-4be4-9236-6fe00a22ffd6.png",
+      "packing": "1",
+      "description": [
+        "مع امان و شاشة رقمية"
+      ]
+    },
+    {
+      "guid": "de18ca89-748d-492a-ab35-ba9d47ea0e12",
+      "sku": "",
+      "name": "HZ130",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 150,
+      "imagePath": "images/DCEL/de18ca89-748d-492a-ab35-ba9d47ea0e12.png",
+      "packing": "1",
+      "description": [
+        "HZ130 مكيف صحراوي ديسل ____________بميزة الرزاز 250 واط"
+      ]
+    },
+    {
+      "guid": "670385c7-44ac-4f4a-b331-ebf97801682e",
+      "sku": "",
+      "name": "KC818",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 50,
+      "imagePath": "images/DCEL/670385c7-44ac-4f4a-b331-ebf97801682e.png",
+      "packing": "1",
+      "description": [
+        "مكيف صحراوي ديسل  KC818______  اطراف وميزة التظيف الذاتي  80 واط"
+      ]
+    },
+    {
+      "guid": "5951cd92-b4da-4ea6-902e-8d167c90ea83",
+      "sku": "",
+      "name": "KC818R",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 55,
+      "imagePath": null,
+      "packing": "1",
+      "description": [
+        "مكيف صحراوي ديسل لمس مع تحكم KC818______ يتميز ب ليد اطراف وميزة التظيف الذاتي  80 واط"
+      ]
+    },
+    {
+      "guid": "37ae5fa9-43f4-4f7c-b669-9f3c78f65874",
+      "sku": "",
+      "name": "1885",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 28,
+      "imagePath": "images/DCEL/37ae5fa9-43f4-4f7c-b669-9f3c78f65874.png",
+      "packing": "1",
+      "description": [
+        "مروحة كهربا   هيكل معدن  شفرة كريستال   60 واط"
+      ]
+    },
+    {
+      "guid": "259da448-3ed6-4ec6-84b0-de35cc006684",
+      "sku": "",
+      "name": "1843",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 22,
+      "imagePath": null,
+      "packing": "1",
+      "description": [
+        "مروحة كهربا    شفرة كريستال   60 واط"
+      ]
+    },
+    {
+      "guid": "b8f11277-94f3-4b2e-9f8d-c5df41c58366",
+      "sku": "",
+      "name": "مروحة كهربا بطرية",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 16,
+      "imagePath": "images/DCEL/b8f11277-94f3-4b2e-9f8d-c5df41c58366.png",
+      "packing": "1",
+      "description": []
+    },
+    {
+      "guid": "626474a3-6a8a-4723-b036-922dfebcad7a",
+      "sku": "",
+      "name": "مروحة 18 بدون تحكم",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 23,
+      "imagePath": "images/DCEL/626474a3-6a8a-4723-b036-922dfebcad7a.png",
+      "packing": "1",
+      "description": [
+        "مروحة جدارية كهرباء",
+        "شفرات شفافة",
+        "60W",
+        "18انش"
+      ]
+    },
+    {
+      "guid": "9a47d718-fd51-412e-a296-739fa36f9f21",
+      "sku": "",
+      "name": "مروحة 18 مع تحكم",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 25,
+      "imagePath": "images/DCEL/9a47d718-fd51-412e-a296-739fa36f9f21.png",
+      "packing": "1",
+      "description": []
+    },
+    {
+      "guid": "ca30763a-a930-426e-aa91-20a44a870ec3",
+      "sku": "",
+      "name": "5*24",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 165,
+      "imagePath": "images/DCEL/ca30763a-a930-426e-aa91-20a44a870ec3.png",
+      "packing": "1",
+      "description": [
+        "مبرد ديسل مع ثلج"
+      ]
+    },
+    {
+      "guid": "6f4f6583-16c2-43b1-93b8-7475592c470f",
+      "sku": "",
+      "name": "5*26",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 190,
+      "imagePath": "images/DCEL/6f4f6583-16c2-43b1-93b8-7475592c470f.png",
+      "packing": "1",
+      "description": [
+        "مبرد ديسل مع ثلج مع شاشة"
+      ]
+    },
+    {
+      "guid": "7a167a0b-8371-4b43-b3b1-945de82306f3",
+      "sku": "",
+      "name": "dcel 106",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 240,
+      "imagePath": "images/DCEL/7a167a0b-8371-4b43-b3b1-945de82306f3.png",
+      "packing": "1",
+      "description": [
+        "مبرد ديسل مكتبي مع ثلج"
+      ]
+    },
+    {
+      "guid": "1c78ba0a-6643-4d26-9f75-f716d214cf0e",
+      "sku": "",
+      "name": "عبوة فلتر",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 16,
+      "imagePath": "images/DCEL/1c78ba0a-6643-4d26-9f75-f716d214cf0e.png",
+      "packing": "1",
+      "description": []
+    },
+    {
+      "guid": "2f82fc01-60be-43e3-80fc-7097326a3d0c",
+      "sku": "",
+      "name": "g57",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 75,
+      "imagePath": "images/DCEL/2f82fc01-60be-43e3-80fc-7097326a3d0c.png",
+      "packing": "1",
+      "description": []
+    },
+    {
+      "guid": "3673cde4-333f-40c4-b88c-1d6932be8785",
+      "sku": "",
+      "name": "D003",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 55,
+      "imagePath": "images/DCEL/3673cde4-333f-40c4-b88c-1d6932be8785.png",
+      "packing": "1",
+      "description": [
+        "شفاط غطس 60 سم"
+      ]
+    },
+    {
+      "guid": "7332950a-6454-4ee0-b6fa-8a335f8b0f43",
+      "sku": "",
+      "name": "D004",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 75,
+      "imagePath": "images/DCEL/7332950a-6454-4ee0-b6fa-8a335f8b0f43.png",
+      "packing": "1",
+      "description": [
+        "شفاط غطس هرمي 90 سم"
+      ]
+    },
+    {
+      "guid": "31a7a356-b19a-41bd-8988-8a6a4f005a15",
+      "sku": "",
+      "name": "D008",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 55,
+      "imagePath": "images/DCEL/31a7a356-b19a-41bd-8988-8a6a4f005a15.png",
+      "packing": "1",
+      "description": [
+        "شفاط غطس مخفي 60 سم"
+      ]
+    },
+    {
+      "guid": "fa21908d-c017-4c41-9de9-0f8aaa71dd63",
+      "sku": "",
+      "name": "BL032",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 105,
+      "imagePath": "images/DCEL/fa21908d-c017-4c41-9de9-0f8aaa71dd63.png",
+      "packing": "1",
+      "description": [
+        "غاز 70 سم 5 روس إيطالي معدن أسود مطف",
+        "يإشعال تلقائي",
+        "مناصب فونط",
+        "أغطية شعالت مسطحة مطلية بالمينا",
+        "تحكم أمامي"
+      ]
+    },
+    {
+      "guid": "2edbd967-31e3-40d0-b48c-16f1d17a2839",
+      "sku": "",
+      "name": "SC-045",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 155,
+      "imagePath": "images/DCEL/2edbd967-31e3-40d0-b48c-16f1d17a2839.png",
+      "packing": "1",
+      "description": [
+        "غاز 5 روس إيطالي 90 سم"
+      ]
+    },
+    {
+      "guid": "c09bcccc-3ce6-4ea2-9372-e3cc8f407978",
+      "sku": "",
+      "name": "BE041",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 130,
+      "imagePath": null,
+      "packing": "1",
+      "description": [
+        "90   شعالت غاز",
+        "روس ايطالي 5",
+        "هيكل من الفوالذ المقاوم للصدأ",
+        "إشعال تلقائي +",
+        "منصب فونط",
+        "أغطية شعالت مسطحة مطلية بالمينا",
+        "تحكم أمامي"
+      ]
+    },
+    {
+      "guid": "5f7120b2-7c48-40f0-85b4-5492ab78960a",
+      "sku": "",
+      "name": "RT 195",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 235,
+      "imagePath": "images/DCEL/5f7120b2-7c48-40f0-85b4-5492ab78960a.png",
+      "packing": "1",
+      "description": [
+        "نحاس 6 غاز",
+        "راسين تيرب                            و سم 90                               شعالت غاز 6"
+      ]
+    },
+    {
+      "guid": "4b940399-7abb-443d-8e78-01efe3ecbcc5",
+      "sku": "",
+      "name": "قاعدة شاشة 32-43",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 1.1000000000000001,
+      "imagePath": "images/DCEL/4b940399-7abb-443d-8e78-01efe3ecbcc5.png",
+      "packing": "1",
+      "description": []
+    },
+    {
+      "guid": "d421d3be-6b94-4bd0-be70-518087db8831",
+      "sku": "",
+      "name": "قاعدة شاشة 43-63",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 1.6,
+      "imagePath": "images/DCEL/d421d3be-6b94-4bd0-be70-518087db8831.png",
+      "packing": "1",
+      "description": []
+    },
+    {
+      "guid": "79814d40-228b-4603-8978-9b67de070ad0",
+      "sku": "",
+      "name": "قاعدة شاشة 40-80",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 3.5,
+      "imagePath": "images/DCEL/79814d40-228b-4603-8978-9b67de070ad0.png",
+      "packing": "1",
+      "description": []
+    },
+    {
+      "guid": "ee52ba76-1167-4f4a-9d27-c93395c9a098",
+      "sku": "",
+      "name": "غاز 3 بلور",
+      "category": "general",
+      "categoryLabel": "عام",
+      "price": 18,
+      "imagePath": "images/DCEL/ee52ba76-1167-4f4a-9d27-c93395c9a098.png",
+      "packing": "1",
+      "description": []
+    }
+  ]
+}
